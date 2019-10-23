@@ -32,12 +32,12 @@
             <td></td>
             <td class="headerItem">Lines:</td>
             <td class="headerCovTableEntry">0</td>
-            <td class="headerCovTableEntry">174</td>
+            <td class="headerCovTableEntry">181</td>
             <td class="headerCovTableEntryLo">0.0 %</td>
           </tr>
           <tr>
             <td class="headerItem">Date:</td>
-            <td class="headerValue">2019-10-23 01:03:53</td>
+            <td class="headerValue">2019-10-23 23:27:09</td>
             <td></td>
             <td class="headerItem">Functions:</td>
             <td class="headerCovTableEntry">0</td>
@@ -1134,7 +1134,7 @@
 <a name="1072"><span class="lineNum">    1072 </span>            : {</a>
 <a name="1073"><span class="lineNum">    1073 </span><span class="lineNoCov">          0 :     __map_pointer __mp = __map_.begin() + __start_ / __block_size;</span></a>
 <a name="1074"><span class="lineNum">    1074 </span><span class="lineNoCov">          0 :     return iterator(__mp, __map_.empty() ? 0 : *__mp + __start_ % __block_size);</span></a>
-<a name="1075"><span class="lineNum">    1075 </span>            : }</a>
+<a name="1075"><span class="lineNum">    1075 </span><span class="lineNoCov">          0 : }</span></a>
 <a name="1076"><span class="lineNum">    1076 </span>            : </a>
 <a name="1077"><span class="lineNum">    1077 </span>            : template &lt;class _Tp, class _Allocator&gt;</a>
 <a name="1078"><span class="lineNum">    1078 </span>            : typename __deque_base&lt;_Tp, _Allocator&gt;::const_iterator</a>
@@ -1151,7 +1151,7 @@
 <a name="1089"><span class="lineNum">    1089 </span><span class="lineNoCov">          0 :     size_type __p = size() + __start_;</span></a>
 <a name="1090"><span class="lineNum">    1090 </span><span class="lineNoCov">          0 :     __map_pointer __mp = __map_.begin() + __p / __block_size;</span></a>
 <a name="1091"><span class="lineNum">    1091 </span><span class="lineNoCov">          0 :     return iterator(__mp, __map_.empty() ? 0 : *__mp + __p % __block_size);</span></a>
-<a name="1092"><span class="lineNum">    1092 </span>            : }</a>
+<a name="1092"><span class="lineNum">    1092 </span><span class="lineNoCov">          0 : }</span></a>
 <a name="1093"><span class="lineNum">    1093 </span>            : </a>
 <a name="1094"><span class="lineNum">    1094 </span>            : template &lt;class _Tp, class _Allocator&gt;</a>
 <a name="1095"><span class="lineNum">    1095 </span>            : typename __deque_base&lt;_Tp, _Allocator&gt;::const_iterator</a>
@@ -1870,7 +1870,7 @@
 <a name="1808"><span class="lineNum">    1808 </span>            : {</a>
 <a name="1809"><span class="lineNum">    1809 </span><span class="lineNoCov">          0 :     size_type __p = __base::size() + __base::__start_ - 1;</span></a>
 <a name="1810"><span class="lineNum">    1810 </span><span class="lineNoCov">          0 :     return *(*(__base::__map_.begin() + __p / __base::__block_size) + __p % __base::__block_size);</span></a>
-<a name="1811"><span class="lineNum">    1811 </span>            : }</a>
+<a name="1811"><span class="lineNum">    1811 </span><span class="lineNoCov">          0 : }</span></a>
 <a name="1812"><span class="lineNum">    1812 </span>            : </a>
 <a name="1813"><span class="lineNum">    1813 </span>            : template &lt;class _Tp, class _Allocator&gt;</a>
 <a name="1814"><span class="lineNum">    1814 </span>            : inline</a>
@@ -2391,7 +2391,7 @@
 <a name="2329"><span class="lineNum">    2329 </span><span class="lineNoCov">          0 :             pointer __pt = __base::__map_.back();</span></a>
 <a name="2330"><span class="lineNum">    2330 </span><span class="lineNoCov">          0 :             __base::__map_.pop_back();</span></a>
 <a name="2331"><span class="lineNum">    2331 </span><span class="lineNoCov">          0 :             __base::__map_.push_front(__pt);</span></a>
-<a name="2332"><span class="lineNum">    2332 </span>            :         }</a>
+<a name="2332"><span class="lineNum">    2332 </span><span class="lineNoCov">          0 :         }</span></a>
 <a name="2333"><span class="lineNum">    2333 </span><span class="lineNoCov">          0 :         __base::__start_ = __base::__map_.size() == 1 ?</span></a>
 <a name="2334"><span class="lineNum">    2334 </span>            :                                __base::__block_size / 2 :</a>
 <a name="2335"><span class="lineNum">    2335 </span><span class="lineNoCov">          0 :                                __base::__start_ + __base::__block_size;</span></a>
@@ -2399,7 +2399,7 @@
 <a name="2337"><span class="lineNum">    2337 </span>            :     // Else need to allocate 1 buffer, *and* we need to reallocate __map_.</a>
 <a name="2338"><span class="lineNum">    2338 </span>            :     else</a>
 <a name="2339"><span class="lineNum">    2339 </span>            :     {</a>
-<a name="2340"><span class="lineNum">    2340 </span>            :         __split_buffer&lt;pointer, typename __base::__pointer_allocator&amp;&gt;</a>
+<a name="2340"><span class="lineNum">    2340 </span><span class="lineNoCov">          0 :         __split_buffer&lt;pointer, typename __base::__pointer_allocator&amp;&gt;</span></a>
 <a name="2341"><span class="lineNum">    2341 </span><span class="lineNoCov">          0 :             __buf(max&lt;size_type&gt;(2 * __base::__map_.capacity(), 1),</span></a>
 <a name="2342"><span class="lineNum">    2342 </span><span class="lineNoCov">          0 :                   0, __base::__map_.__alloc());</span></a>
 <a name="2343"><span class="lineNum">    2343 </span>            : </a>
@@ -2536,12 +2536,12 @@
 <a name="2474"><span class="lineNum">    2474 </span><span class="lineNoCov">          0 :             pointer __pt = __base::__map_.front();</span></a>
 <a name="2475"><span class="lineNum">    2475 </span><span class="lineNoCov">          0 :             __base::__map_.pop_front();</span></a>
 <a name="2476"><span class="lineNum">    2476 </span><span class="lineNoCov">          0 :             __base::__map_.push_back(__pt);</span></a>
-<a name="2477"><span class="lineNum">    2477 </span>            :         }</a>
+<a name="2477"><span class="lineNum">    2477 </span><span class="lineNoCov">          0 :         }</span></a>
 <a name="2478"><span class="lineNum">    2478 </span><span class="lineNoCov">          0 :     }</span></a>
 <a name="2479"><span class="lineNum">    2479 </span>            :     // Else need to allocate 1 buffer, *and* we need to reallocate __map_.</a>
 <a name="2480"><span class="lineNum">    2480 </span>            :     else</a>
 <a name="2481"><span class="lineNum">    2481 </span>            :     {</a>
-<a name="2482"><span class="lineNum">    2482 </span>            :         __split_buffer&lt;pointer, typename __base::__pointer_allocator&amp;&gt;</a>
+<a name="2482"><span class="lineNum">    2482 </span><span class="lineNoCov">          0 :         __split_buffer&lt;pointer, typename __base::__pointer_allocator&amp;&gt;</span></a>
 <a name="2483"><span class="lineNum">    2483 </span><span class="lineNoCov">          0 :             __buf(max&lt;size_type&gt;(2* __base::__map_.capacity(), 1),</span></a>
 <a name="2484"><span class="lineNum">    2484 </span><span class="lineNoCov">          0 :                   __base::__map_.size(),</span></a>
 <a name="2485"><span class="lineNum">    2485 </span><span class="lineNoCov">          0 :                   __base::__map_.__alloc());</span></a>

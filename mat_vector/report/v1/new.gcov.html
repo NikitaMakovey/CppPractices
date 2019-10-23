@@ -32,12 +32,12 @@
             <td></td>
             <td class="headerItem">Lines:</td>
             <td class="headerCovTableEntry">21</td>
-            <td class="headerCovTableEntry">29</td>
-            <td class="headerCovTableEntryLo">72.4 %</td>
+            <td class="headerCovTableEntry">31</td>
+            <td class="headerCovTableEntryLo">67.7 %</td>
           </tr>
           <tr>
             <td class="headerItem">Date:</td>
-            <td class="headerValue">2019-10-23 01:03:53</td>
+            <td class="headerValue">2019-10-23 23:27:09</td>
             <td></td>
             <td class="headerItem">Functions:</td>
             <td class="headerCovTableEntry">10</td>
@@ -291,7 +291,7 @@
 <a name="229"><span class="lineNum">     229 </span>            : # else</a>
 <a name="230"><span class="lineNum">     230 </span><span class="lineNoCov">          0 :     return __builtin_operator_new(__size, __align_val);</span></a>
 <a name="231"><span class="lineNum">     231 </span>            : # endif</a>
-<a name="232"><span class="lineNum">     232 </span>            :   }</a>
+<a name="232"><span class="lineNum">     232 </span><span class="lineNoCov">          0 :   }</span></a>
 <a name="233"><span class="lineNum">     233 </span>            : #else</a>
 <a name="234"><span class="lineNum">     234 </span>            :   ((void)__align);</a>
 <a name="235"><span class="lineNum">     235 </span>            : #endif</a>
@@ -312,7 +312,7 @@
 <a name="250"><span class="lineNum">     250 </span><span class="lineCov">       1409 :     if (__is_overaligned_for_new(__align)) {</span></a>
 <a name="251"><span class="lineNum">     251 </span><span class="lineNoCov">          0 :       const align_val_t __align_val = static_cast&lt;align_val_t&gt;(__align);</span></a>
 <a name="252"><span class="lineNum">     252 </span><span class="lineNoCov">          0 :       return __do_deallocate_handle_size(__ptr, __size, __align_val);</span></a>
-<a name="253"><span class="lineNum">     253 </span>            :     } else {</a>
+<a name="253"><span class="lineNum">     253 </span><span class="lineNoCov">          0 :     } else {</span></a>
 <a name="254"><span class="lineNum">     254 </span><span class="lineCov">       1409 :       return __do_deallocate_handle_size(__ptr, __size);</span></a>
 <a name="255"><span class="lineNum">     255 </span>            :     }</a>
 <a name="256"><span class="lineNum">     256 </span>            : #endif</a>

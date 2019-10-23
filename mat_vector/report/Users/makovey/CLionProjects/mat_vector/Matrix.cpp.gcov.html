@@ -37,7 +37,7 @@
           </tr>
           <tr>
             <td class="headerItem">Date:</td>
-            <td class="headerValue">2019-10-23 01:03:53</td>
+            <td class="headerValue">2019-10-23 23:27:09</td>
             <td></td>
             <td class="headerItem">Functions:</td>
             <td class="headerCovTableEntry">33</td>
@@ -321,7 +321,7 @@
 <a name="259"><span class="lineNum">     259 </span>            : </a>
 <a name="260"><span class="lineNum">     260 </span><span class="lineCov">          2 : bool Matrix::operator==(const Matrix &amp;rhs) const {</span></a>
 <a name="261"><span class="lineNum">     261 </span><span class="lineCov">          2 :     double e = 0.000000000001;</span></a>
-<a name="262"><span class="lineNum">     262 </span><span class="lineCov">         27 :     for (int i = 0; i &lt; countColumns * countRows; i++) {</span></a>
+<a name="262"><span class="lineNum">     262 </span><span class="lineCov">         28 :     for (int i = 0; i &lt; countColumns * countRows; i++) {</span></a>
 <a name="263"><span class="lineNum">     263 </span><span class="lineCov">         26 :         if (std::abs(mathMatrix[i] - rhs.mathMatrix[i]) &gt;= e)</span></a>
 <a name="264"><span class="lineNum">     264 </span><span class="lineCov">          1 :             return false;</span></a>
 <a name="265"><span class="lineNum">     265 </span><span class="lineCov">         25 :     }</span></a>
@@ -330,7 +330,7 @@
 <a name="268"><span class="lineNum">     268 </span>            : </a>
 <a name="269"><span class="lineNum">     269 </span><span class="lineCov">          2 : bool Matrix::operator!=(const Matrix &amp;rhs) const {</span></a>
 <a name="270"><span class="lineNum">     270 </span><span class="lineCov">          2 :     double e = 0.000000000001;</span></a>
-<a name="271"><span class="lineNum">     271 </span><span class="lineCov">         27 :     for (int i = 0; i &lt; countRows * countColumns; i++) {</span></a>
+<a name="271"><span class="lineNum">     271 </span><span class="lineCov">         28 :     for (int i = 0; i &lt; countRows * countColumns; i++) {</span></a>
 <a name="272"><span class="lineNum">     272 </span><span class="lineCov">         26 :         if (std::abs(mathMatrix[i] - rhs.mathMatrix[i]) &lt; e)</span></a>
 <a name="273"><span class="lineNum">     273 </span><span class="lineCov">          1 :             return false;</span></a>
 <a name="274"><span class="lineNum">     274 </span><span class="lineCov">         25 :     }</span></a>

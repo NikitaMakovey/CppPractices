@@ -31,13 +31,13 @@
             <td class="headerValue">main.info</td>
             <td></td>
             <td class="headerItem">Lines:</td>
-            <td class="headerCovTableEntry">254</td>
-            <td class="headerCovTableEntry">346</td>
-            <td class="headerCovTableEntryLo">73.4 %</td>
+            <td class="headerCovTableEntry">261</td>
+            <td class="headerCovTableEntry">354</td>
+            <td class="headerCovTableEntryLo">73.7 %</td>
           </tr>
           <tr>
             <td class="headerItem">Date:</td>
-            <td class="headerValue">2019-10-23 01:03:53</td>
+            <td class="headerValue">2019-10-23 23:27:09</td>
             <td></td>
             <td class="headerItem">Functions:</td>
             <td class="headerCovTableEntry">152</td>
@@ -362,7 +362,7 @@
 <a name="300"><span class="lineNum">     300 </span><span class="lineCov">         10 :                 __tree_right_rotate(__x);</span></a>
 <a name="301"><span class="lineNum">     301 </span><span class="lineCov">         10 :                 break;</span></a>
 <a name="302"><span class="lineNum">     302 </span>            :             }</a>
-<a name="303"><span class="lineNum">     303 </span><span class="lineCov">         16 :         }</span></a>
+<a name="303"><span class="lineNum">     303 </span><span class="lineCov">         26 :         }</span></a>
 <a name="304"><span class="lineNum">     304 </span>            :         else</a>
 <a name="305"><span class="lineNum">     305 </span>            :         {</a>
 <a name="306"><span class="lineNum">     306 </span><span class="lineCov">         93 :             _NodePtr __y = __x-&gt;__parent_unsafe()-&gt;__parent_-&gt;__left_;</span></a>
@@ -388,7 +388,7 @@
 <a name="326"><span class="lineNum">     326 </span><span class="lineCov">         49 :                 __tree_left_rotate(__x);</span></a>
 <a name="327"><span class="lineNum">     327 </span><span class="lineCov">         49 :                 break;</span></a>
 <a name="328"><span class="lineNum">     328 </span>            :             }</a>
-<a name="329"><span class="lineNum">     329 </span>            :         }</a>
+<a name="329"><span class="lineNum">     329 </span><span class="lineCov">         93 :         }</span></a>
 <a name="330"><span class="lineNum">     330 </span>            :     }</a>
 <a name="331"><span class="lineNum">     331 </span><span class="lineCov">        101 : }</span></a>
 <a name="332"><span class="lineNum">     332 </span>            : </a>
@@ -2153,7 +2153,7 @@
 <a name="2091"><span class="lineNum">    2091 </span>            :         }</a>
 <a name="2092"><span class="lineNum">    2092 </span>            :         // __v &lt;= *prev(__hint)</a>
 <a name="2093"><span class="lineNum">    2093 </span><span class="lineNoCov">          0 :         return __find_equal(__parent, __v);</span></a>
-<a name="2094"><span class="lineNum">    2094 </span>            :     }</a>
+<a name="2094"><span class="lineNum">    2094 </span><span class="lineCov">          1 :     }</span></a>
 <a name="2095"><span class="lineNum">    2095 </span><span class="lineNoCov">          0 :     else if (value_comp()(*__hint, __v))  // check after</span></a>
 <a name="2096"><span class="lineNum">    2096 </span>            :     {</a>
 <a name="2097"><span class="lineNum">    2097 </span>            :         // *__hint &lt; __v</a>
@@ -2174,7 +2174,7 @@
 <a name="2112"><span class="lineNum">    2112 </span>            :         }</a>
 <a name="2113"><span class="lineNum">    2113 </span>            :         // *next(__hint) &lt;= __v</a>
 <a name="2114"><span class="lineNum">    2114 </span><span class="lineNoCov">          0 :         return __find_equal(__parent, __v);</span></a>
-<a name="2115"><span class="lineNum">    2115 </span>            :     }</a>
+<a name="2115"><span class="lineNum">    2115 </span><span class="lineNoCov">          0 :     }</span></a>
 <a name="2116"><span class="lineNum">    2116 </span>            :     // else __v == *__hint</a>
 <a name="2117"><span class="lineNum">    2117 </span><span class="lineNoCov">          0 :     __parent = static_cast&lt;__parent_pointer&gt;(__hint.__ptr_);</span></a>
 <a name="2118"><span class="lineNum">    2118 </span><span class="lineNoCov">          0 :     __dummy = static_cast&lt;__node_base_pointer&gt;(__hint.__ptr_);</span></a>
@@ -2209,7 +2209,7 @@
 <a name="2147"><span class="lineNum">    2147 </span>            : __tree&lt;_Tp, _Compare, _Allocator&gt;::__emplace_unique_key_args(_Key const&amp; __k, _Args&amp; __args)</a>
 <a name="2148"><span class="lineNum">    2148 </span>            : #endif</a>
 <a name="2149"><span class="lineNum">    2149 </span>            : {</a>
-<a name="2150"><span class="lineNum">    2150 </span>            :     __parent_pointer __parent;</a>
+<a name="2150"><span class="lineNum">    2150 </span><span class="lineCov">        100 :     __parent_pointer __parent;</span></a>
 <a name="2151"><span class="lineNum">    2151 </span><span class="lineCov">        100 :     __node_base_pointer&amp; __child = __find_equal(__parent, __k);</span></a>
 <a name="2152"><span class="lineNum">    2152 </span><span class="lineCov">        100 :     __node_pointer __r = static_cast&lt;__node_pointer&gt;(__child);</span></a>
 <a name="2153"><span class="lineNum">    2153 </span><span class="lineCov">        100 :     bool __inserted = false;</span></a>
@@ -2225,7 +2225,7 @@
 <a name="2163"><span class="lineNum">    2163 </span><span class="lineCov">        100 :         __inserted = true;</span></a>
 <a name="2164"><span class="lineNum">    2164 </span><span class="lineCov">        100 :     }</span></a>
 <a name="2165"><span class="lineNum">    2165 </span><span class="lineCov">        100 :     return pair&lt;iterator, bool&gt;(iterator(__r), __inserted);</span></a>
-<a name="2166"><span class="lineNum">    2166 </span>            : }</a>
+<a name="2166"><span class="lineNum">    2166 </span><span class="lineCov">        100 : }</span></a>
 <a name="2167"><span class="lineNum">    2167 </span>            : </a>
 <a name="2168"><span class="lineNum">    2168 </span>            : </a>
 <a name="2169"><span class="lineNum">    2169 </span>            : #ifndef _LIBCPP_CXX03_LANG</a>
@@ -2242,8 +2242,8 @@
 <a name="2180"><span class="lineNum">    2180 </span>            :     const_iterator __p, _Key const&amp; __k, _Args&amp; __args)</a>
 <a name="2181"><span class="lineNum">    2181 </span>            : #endif</a>
 <a name="2182"><span class="lineNum">    2182 </span>            : {</a>
-<a name="2183"><span class="lineNum">    2183 </span>            :     __parent_pointer __parent;</a>
-<a name="2184"><span class="lineNum">    2184 </span>            :     __node_base_pointer __dummy;</a>
+<a name="2183"><span class="lineNum">    2183 </span><span class="lineCov">          1 :     __parent_pointer __parent;</span></a>
+<a name="2184"><span class="lineNum">    2184 </span><span class="lineCov">          1 :     __node_base_pointer __dummy;</span></a>
 <a name="2185"><span class="lineNum">    2185 </span><span class="lineCov">          1 :     __node_base_pointer&amp; __child = __find_equal(__p, __parent, __dummy, __k);</span></a>
 <a name="2186"><span class="lineNum">    2186 </span><span class="lineCov">          1 :     __node_pointer __r = static_cast&lt;__node_pointer&gt;(__child);</span></a>
 <a name="2187"><span class="lineNum">    2187 </span><span class="lineCov">          1 :     if (__child == nullptr)</span></a>
@@ -2257,7 +2257,7 @@
 <a name="2195"><span class="lineNum">    2195 </span><span class="lineCov">          1 :         __r = __h.release();</span></a>
 <a name="2196"><span class="lineNum">    2196 </span><span class="lineCov">          1 :     }</span></a>
 <a name="2197"><span class="lineNum">    2197 </span><span class="lineCov">          1 :     return iterator(__r);</span></a>
-<a name="2198"><span class="lineNum">    2198 </span>            : }</a>
+<a name="2198"><span class="lineNum">    2198 </span><span class="lineCov">          1 : }</span></a>
 <a name="2199"><span class="lineNum">    2199 </span>            : </a>
 <a name="2200"><span class="lineNum">    2200 </span>            : </a>
 <a name="2201"><span class="lineNum">    2201 </span>            : #ifndef _LIBCPP_CXX03_LANG</a>

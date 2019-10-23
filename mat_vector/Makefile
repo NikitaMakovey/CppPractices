@@ -123,13 +123,26 @@ mat_vector/fast:
 	$(MAKE) -f CMakeFiles/mat_vector.dir/build.make CMakeFiles/mat_vector.dir/build
 .PHONY : mat_vector/fast
 
+#=============================================================================
+# Target rules for targets named Library
+
+# Build rule for target.
+Library: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Library
+.PHONY : Library
+
+# fast build rule for target.
+Library/fast:
+	$(MAKE) -f CMakeFiles/Library.dir/build.make CMakeFiles/Library.dir/build
+.PHONY : Library/fast
+
 Matrix.o: Matrix.cpp.o
 
 .PHONY : Matrix.o
 
 # target to build an object file
 Matrix.cpp.o:
-	$(MAKE) -f CMakeFiles/mat_vector.dir/build.make CMakeFiles/mat_vector.dir/Matrix.cpp.o
+	$(MAKE) -f CMakeFiles/Library.dir/build.make CMakeFiles/Library.dir/Matrix.cpp.o
 .PHONY : Matrix.cpp.o
 
 Matrix.i: Matrix.cpp.i
@@ -138,7 +151,7 @@ Matrix.i: Matrix.cpp.i
 
 # target to preprocess a source file
 Matrix.cpp.i:
-	$(MAKE) -f CMakeFiles/mat_vector.dir/build.make CMakeFiles/mat_vector.dir/Matrix.cpp.i
+	$(MAKE) -f CMakeFiles/Library.dir/build.make CMakeFiles/Library.dir/Matrix.cpp.i
 .PHONY : Matrix.cpp.i
 
 Matrix.s: Matrix.cpp.s
@@ -147,7 +160,7 @@ Matrix.s: Matrix.cpp.s
 
 # target to generate assembly for a file
 Matrix.cpp.s:
-	$(MAKE) -f CMakeFiles/mat_vector.dir/build.make CMakeFiles/mat_vector.dir/Matrix.cpp.s
+	$(MAKE) -f CMakeFiles/Library.dir/build.make CMakeFiles/Library.dir/Matrix.cpp.s
 .PHONY : Matrix.cpp.s
 
 Vector.o: Vector.cpp.o
@@ -156,7 +169,7 @@ Vector.o: Vector.cpp.o
 
 # target to build an object file
 Vector.cpp.o:
-	$(MAKE) -f CMakeFiles/mat_vector.dir/build.make CMakeFiles/mat_vector.dir/Vector.cpp.o
+	$(MAKE) -f CMakeFiles/Library.dir/build.make CMakeFiles/Library.dir/Vector.cpp.o
 .PHONY : Vector.cpp.o
 
 Vector.i: Vector.cpp.i
@@ -165,7 +178,7 @@ Vector.i: Vector.cpp.i
 
 # target to preprocess a source file
 Vector.cpp.i:
-	$(MAKE) -f CMakeFiles/mat_vector.dir/build.make CMakeFiles/mat_vector.dir/Vector.cpp.i
+	$(MAKE) -f CMakeFiles/Library.dir/build.make CMakeFiles/Library.dir/Vector.cpp.i
 .PHONY : Vector.cpp.i
 
 Vector.s: Vector.cpp.s
@@ -174,7 +187,7 @@ Vector.s: Vector.cpp.s
 
 # target to generate assembly for a file
 Vector.cpp.s:
-	$(MAKE) -f CMakeFiles/mat_vector.dir/build.make CMakeFiles/mat_vector.dir/Vector.cpp.s
+	$(MAKE) -f CMakeFiles/Library.dir/build.make CMakeFiles/Library.dir/Vector.cpp.s
 .PHONY : Vector.cpp.s
 
 main.o: main.cpp.o
@@ -210,9 +223,10 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... mat_vector"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... mat_vector"
+	@echo "... Library"
 	@echo "... Matrix.o"
 	@echo "... Matrix.i"
 	@echo "... Matrix.s"

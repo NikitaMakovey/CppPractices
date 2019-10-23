@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/makovey/CLionProjects/mat_vector/Base.h
+
+/Users/makovey/CLionProjects/mat_vector/Matrix.cpp
+Matrix.h
+/Users/makovey/CLionProjects/mat_vector/Matrix.h
+Vector.h
+/Users/makovey/CLionProjects/mat_vector/Vector.h
+cstddef
+-
+cmath
+-
+
+/Users/makovey/CLionProjects/mat_vector/Matrix.h
+Base.h
+/Users/makovey/CLionProjects/mat_vector/Base.h
+tuple
+-
+
+/Users/makovey/CLionProjects/mat_vector/Vector.cpp
+cstddef
+-
+Vector.h
+/Users/makovey/CLionProjects/mat_vector/Vector.h
+Matrix.h
+/Users/makovey/CLionProjects/mat_vector/Matrix.h
+cmath
+-
+
+/Users/makovey/CLionProjects/mat_vector/Vector.h
+Base.h
+/Users/makovey/CLionProjects/mat_vector/Base.h
+

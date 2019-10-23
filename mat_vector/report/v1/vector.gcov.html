@@ -31,18 +31,18 @@
             <td class="headerValue">main.info</td>
             <td></td>
             <td class="headerItem">Lines:</td>
-            <td class="headerCovTableEntry">217</td>
-            <td class="headerCovTableEntry">453</td>
-            <td class="headerCovTableEntryLo">47.9 %</td>
+            <td class="headerCovTableEntry">229</td>
+            <td class="headerCovTableEntry">470</td>
+            <td class="headerCovTableEntryLo">48.7 %</td>
           </tr>
           <tr>
             <td class="headerItem">Date:</td>
-            <td class="headerValue">2019-10-23 01:03:53</td>
+            <td class="headerValue">2019-10-23 23:27:09</td>
             <td></td>
             <td class="headerItem">Functions:</td>
-            <td class="headerCovTableEntry">519</td>
-            <td class="headerCovTableEntry">1587</td>
-            <td class="headerCovTableEntryLo">32.7 %</td>
+            <td class="headerCovTableEntry">537</td>
+            <td class="headerCovTableEntry">1734</td>
+            <td class="headerCovTableEntryLo">31.0 %</td>
           </tr>
           <tr><td><img src="../glass.png" width=3 height=3 alt=""></td></tr>
         </table>
@@ -416,8 +416,8 @@
 <a name="354"><span class="lineNum">     354 </span><span class="lineCov">       3394 :     pointer&amp; __end_cap() _NOEXCEPT</span></a>
 <a name="355"><span class="lineNum">     355 </span><span class="lineCov">       3394 :         {return __end_cap_.first();}</span></a>
 <a name="356"><span class="lineNum">     356 </span>            :     _LIBCPP_INLINE_VISIBILITY</a>
-<a name="357"><span class="lineNum">     357 </span><span class="lineCov">       9540 :     const pointer&amp; __end_cap() const _NOEXCEPT</span></a>
-<a name="358"><span class="lineNum">     358 </span><span class="lineCov">       9540 :         {return __end_cap_.first();}</span></a>
+<a name="357"><span class="lineNum">     357 </span><span class="lineCov">      10618 :     const pointer&amp; __end_cap() const _NOEXCEPT</span></a>
+<a name="358"><span class="lineNum">     358 </span><span class="lineCov">      10618 :         {return __end_cap_.first();}</span></a>
 <a name="359"><span class="lineNum">     359 </span>            : </a>
 <a name="360"><span class="lineNum">     360 </span>            :     _LIBCPP_INLINE_VISIBILITY</a>
 <a name="361"><span class="lineNum">     361 </span><span class="lineCov">        393 :     __vector_base()</span></a>
@@ -431,8 +431,8 @@
 <a name="369"><span class="lineNum">     369 </span>            :     _LIBCPP_INLINE_VISIBILITY</a>
 <a name="370"><span class="lineNum">     370 </span><span class="lineCov">       1617 :     void clear() _NOEXCEPT {__destruct_at_end(__begin_);}</span></a>
 <a name="371"><span class="lineNum">     371 </span>            :     _LIBCPP_INLINE_VISIBILITY</a>
-<a name="372"><span class="lineNum">     372 </span><span class="lineCov">       9540 :     size_type capacity() const _NOEXCEPT</span></a>
-<a name="373"><span class="lineNum">     373 </span><span class="lineCov">       9540 :         {return static_cast&lt;size_type&gt;(__end_cap() - __begin_);}</span></a>
+<a name="372"><span class="lineNum">     372 </span><span class="lineCov">      10618 :     size_type capacity() const _NOEXCEPT</span></a>
+<a name="373"><span class="lineNum">     373 </span><span class="lineCov">      10618 :         {return static_cast&lt;size_type&gt;(__end_cap() - __begin_);}</span></a>
 <a name="374"><span class="lineNum">     374 </span>            : </a>
 <a name="375"><span class="lineNum">     375 </span>            :     _LIBCPP_INLINE_VISIBILITY</a>
 <a name="376"><span class="lineNum">     376 </span>            :     void __destruct_at_end(pointer __new_last) _NOEXCEPT;</a>
@@ -715,11 +715,11 @@
 <a name="653"><span class="lineNum">     653 </span>            :         {return rend();}</a>
 <a name="654"><span class="lineNum">     654 </span>            : </a>
 <a name="655"><span class="lineNum">     655 </span>            :     _LIBCPP_INLINE_VISIBILITY</a>
-<a name="656"><span class="lineNum">     656 </span><span class="lineCov">       5976 :     size_type size() const _NOEXCEPT</span></a>
-<a name="657"><span class="lineNum">     657 </span><span class="lineCov">       5976 :         {return static_cast&lt;size_type&gt;(this-&gt;__end_ - this-&gt;__begin_);}</span></a>
+<a name="656"><span class="lineNum">     656 </span><span class="lineCov">       9210 :     size_type size() const _NOEXCEPT</span></a>
+<a name="657"><span class="lineNum">     657 </span><span class="lineCov">       9210 :         {return static_cast&lt;size_type&gt;(this-&gt;__end_ - this-&gt;__begin_);}</span></a>
 <a name="658"><span class="lineNum">     658 </span>            :     _LIBCPP_INLINE_VISIBILITY</a>
-<a name="659"><span class="lineNum">     659 </span><span class="lineCov">       8468 :     size_type capacity() const _NOEXCEPT</span></a>
-<a name="660"><span class="lineNum">     660 </span><span class="lineCov">       8468 :         {return __base::capacity();}</span></a>
+<a name="659"><span class="lineNum">     659 </span><span class="lineCov">       9546 :     size_type capacity() const _NOEXCEPT</span></a>
+<a name="660"><span class="lineNum">     660 </span><span class="lineCov">       9546 :         {return __base::capacity();}</span></a>
 <a name="661"><span class="lineNum">     661 </span>            :     _LIBCPP_NODISCARD_AFTER_CXX17 _LIBCPP_INLINE_VISIBILITY</a>
 <a name="662"><span class="lineNum">     662 </span><span class="lineCov">        153 :     bool empty() const _NOEXCEPT</span></a>
 <a name="663"><span class="lineNum">     663 </span><span class="lineCov">        153 :         {return this-&gt;__begin_ == this-&gt;__end_;}</span></a>
@@ -757,8 +757,8 @@
 <a name="695"><span class="lineNum">     695 </span>            :     value_type*       data() _NOEXCEPT</a>
 <a name="696"><span class="lineNum">     696 </span>            :         {return _VSTD::__to_raw_pointer(this-&gt;__begin_);}</a>
 <a name="697"><span class="lineNum">     697 </span>            :     _LIBCPP_INLINE_VISIBILITY</a>
-<a name="698"><span class="lineNum">     698 </span><span class="lineCov">      17852 :     const value_type* data() const _NOEXCEPT</span></a>
-<a name="699"><span class="lineNum">     699 </span><span class="lineCov">      17852 :         {return _VSTD::__to_raw_pointer(this-&gt;__begin_);}</span></a>
+<a name="698"><span class="lineNum">     698 </span><span class="lineCov">      22164 :     const value_type* data() const _NOEXCEPT</span></a>
+<a name="699"><span class="lineNum">     699 </span><span class="lineCov">      22164 :         {return _VSTD::__to_raw_pointer(this-&gt;__begin_);}</span></a>
 <a name="700"><span class="lineNum">     700 </span>            : </a>
 <a name="701"><span class="lineNum">     701 </span>            : #ifdef _LIBCPP_CXX03_LANG</a>
 <a name="702"><span class="lineNum">     702 </span>            :     _LIBCPP_INLINE_VISIBILITY</a>
@@ -911,18 +911,18 @@
 <a name="849"><span class="lineNum">     849 </span>            :     // may not meet the AddressSanitizer alignment constraints.</a>
 <a name="850"><span class="lineNum">     850 </span>            :     // See the documentation for __sanitizer_annotate_contiguous_container for more details.</a>
 <a name="851"><span class="lineNum">     851 </span>            : #ifndef _LIBCPP_HAS_NO_ASAN</a>
-<a name="852"><span class="lineNum">     852 </span>            :     void __annotate_contiguous_container(const void *__beg, const void *__end,</a>
+<a name="852"><span class="lineNum">     852 </span><span class="lineCov">       5541 :     void __annotate_contiguous_container(const void *__beg, const void *__end,</span></a>
 <a name="853"><span class="lineNum">     853 </span>            :                                          const void *__old_mid,</a>
 <a name="854"><span class="lineNum">     854 </span>            :                                          const void *__new_mid) const</a>
 <a name="855"><span class="lineNum">     855 </span>            :     {</a>
 <a name="856"><span class="lineNum">     856 </span>            : </a>
-<a name="857"><span class="lineNum">     857 </span>            :       if (__beg &amp;&amp; is_same&lt;allocator_type, __default_allocator_type&gt;::value)</a>
-<a name="858"><span class="lineNum">     858 </span>            :         __sanitizer_annotate_contiguous_container(__beg, __end, __old_mid, __new_mid);</a>
-<a name="859"><span class="lineNum">     859 </span>            :     }</a>
+<a name="857"><span class="lineNum">     857 </span><span class="lineCov">       5541 :       if (__beg &amp;&amp; is_same&lt;allocator_type, __default_allocator_type&gt;::value)</span></a>
+<a name="858"><span class="lineNum">     858 </span><span class="lineCov">       3376 :         __sanitizer_annotate_contiguous_container(__beg, __end, __old_mid, __new_mid);</span></a>
+<a name="859"><span class="lineNum">     859 </span><span class="lineCov">       5541 :     }</span></a>
 <a name="860"><span class="lineNum">     860 </span>            : #else</a>
 <a name="861"><span class="lineNum">     861 </span>            :     _LIBCPP_INLINE_VISIBILITY</a>
-<a name="862"><span class="lineNum">     862 </span><span class="lineCov">       4463 :     void __annotate_contiguous_container(const void*, const void*, const void*,</span></a>
-<a name="863"><span class="lineNum">     863 </span><span class="lineCov">       4463 :                                          const void*) const {}</span></a>
+<a name="862"><span class="lineNum">     862 </span>            :     void __annotate_contiguous_container(const void*, const void*, const void*,</a>
+<a name="863"><span class="lineNum">     863 </span>            :                                          const void*) const {}</a>
 <a name="864"><span class="lineNum">     864 </span>            : #endif</a>
 <a name="865"><span class="lineNum">     865 </span>            :     _LIBCPP_INLINE_VISIBILITY</a>
 <a name="866"><span class="lineNum">     866 </span><span class="lineCov">       1125 :     void __annotate_new(size_type __current_size) const {</span></a>
@@ -937,11 +937,11 @@
 <a name="875"><span class="lineNum">     875 </span><span class="lineCov">       2745 :     }</span></a>
 <a name="876"><span class="lineNum">     876 </span>            : </a>
 <a name="877"><span class="lineNum">     877 </span>            :     _LIBCPP_INLINE_VISIBILITY</a>
-<a name="878"><span class="lineNum">     878 </span>            :     void __annotate_increase(size_type __n) const</a>
+<a name="878"><span class="lineNum">     878 </span><span class="lineCov">       1078 :     void __annotate_increase(size_type __n) const</span></a>
 <a name="879"><span class="lineNum">     879 </span>            :     {</a>
-<a name="880"><span class="lineNum">     880 </span>            :       __annotate_contiguous_container(data(), data() + capacity(),</a>
-<a name="881"><span class="lineNum">     881 </span>            :                                       data() + size(), data() + size() + __n);</a>
-<a name="882"><span class="lineNum">     882 </span>            :     }</a>
+<a name="880"><span class="lineNum">     880 </span><span class="lineCov">       2156 :       __annotate_contiguous_container(data(), data() + capacity(),</span></a>
+<a name="881"><span class="lineNum">     881 </span><span class="lineCov">       1078 :                                       data() + size(), data() + size() + __n);</span></a>
+<a name="882"><span class="lineNum">     882 </span><span class="lineCov">       1078 :     }</span></a>
 <a name="883"><span class="lineNum">     883 </span>            : </a>
 <a name="884"><span class="lineNum">     884 </span>            :     _LIBCPP_INLINE_VISIBILITY</a>
 <a name="885"><span class="lineNum">     885 </span><span class="lineCov">        593 :     void __annotate_shrink(size_type __old_size) const</span></a>
@@ -953,15 +953,15 @@
 <a name="891"><span class="lineNum">     891 </span>            :     // The annotation for size increase should happen before the actual increase,</a>
 <a name="892"><span class="lineNum">     892 </span>            :     // but if an exception is thrown after that the annotation has to be undone.</a>
 <a name="893"><span class="lineNum">     893 </span>            :     struct __RAII_IncreaseAnnotator {</a>
-<a name="894"><span class="lineNum">     894 </span>            :       __RAII_IncreaseAnnotator(const vector &amp;__v, size_type __n = 1)</a>
-<a name="895"><span class="lineNum">     895 </span>            :         : __commit(false), __v(__v), __old_size(__v.size() + __n) {</a>
-<a name="896"><span class="lineNum">     896 </span>            :         __v.__annotate_increase(__n);</a>
-<a name="897"><span class="lineNum">     897 </span>            :       }</a>
-<a name="898"><span class="lineNum">     898 </span>            :       void __done() { __commit = true; }</a>
-<a name="899"><span class="lineNum">     899 </span>            :       ~__RAII_IncreaseAnnotator() {</a>
-<a name="900"><span class="lineNum">     900 </span>            :         if (__commit) return;</a>
-<a name="901"><span class="lineNum">     901 </span>            :         __v.__annotate_shrink(__old_size);</a>
-<a name="902"><span class="lineNum">     902 </span>            :       }</a>
+<a name="894"><span class="lineNum">     894 </span><span class="lineCov">       2156 :       __RAII_IncreaseAnnotator(const vector &amp;__v, size_type __n = 1)</span></a>
+<a name="895"><span class="lineNum">     895 </span><span class="lineCov">       2156 :         : __commit(false), __v(__v), __old_size(__v.size() + __n) {</span></a>
+<a name="896"><span class="lineNum">     896 </span><span class="lineCov">       1078 :         __v.__annotate_increase(__n);</span></a>
+<a name="897"><span class="lineNum">     897 </span><span class="lineCov">       2156 :       }</span></a>
+<a name="898"><span class="lineNum">     898 </span><span class="lineCov">       1078 :       void __done() { __commit = true; }</span></a>
+<a name="899"><span class="lineNum">     899 </span><span class="lineCov">       2156 :       ~__RAII_IncreaseAnnotator() {</span></a>
+<a name="900"><span class="lineNum">     900 </span><span class="lineCov">       1078 :         if (__commit) return;</span></a>
+<a name="901"><span class="lineNum">     901 </span><span class="lineNoCov">          0 :         __v.__annotate_shrink(__old_size);</span></a>
+<a name="902"><span class="lineNum">     902 </span><span class="lineCov">       2156 :       }</span></a>
 <a name="903"><span class="lineNum">     903 </span>            :       bool __commit;</a>
 <a name="904"><span class="lineNum">     904 </span>            :       const vector &amp;__v;</a>
 <a name="905"><span class="lineNum">     905 </span>            :       size_type __old_size;</a>
@@ -969,8 +969,8 @@
 <a name="907"><span class="lineNum">     907 </span>            : #else</a>
 <a name="908"><span class="lineNum">     908 </span>            :     struct __RAII_IncreaseAnnotator {</a>
 <a name="909"><span class="lineNum">     909 </span>            :       _LIBCPP_INLINE_VISIBILITY</a>
-<a name="910"><span class="lineNum">     910 </span><span class="lineCov">       2156 :       __RAII_IncreaseAnnotator(const vector &amp;, size_type = 1) {}</span></a>
-<a name="911"><span class="lineNum">     911 </span><span class="lineCov">       1078 :       _LIBCPP_INLINE_VISIBILITY void __done() {}</span></a>
+<a name="910"><span class="lineNum">     910 </span>            :       __RAII_IncreaseAnnotator(const vector &amp;, size_type = 1) {}</a>
+<a name="911"><span class="lineNum">     911 </span>            :       _LIBCPP_INLINE_VISIBILITY void __done() {}</a>
 <a name="912"><span class="lineNum">     912 </span>            :     };</a>
 <a name="913"><span class="lineNum">     913 </span>            : #endif</a>
 <a name="914"><span class="lineNum">     914 </span>            : </a>
@@ -1021,7 +1021,7 @@
 <a name="959"><span class="lineNum">     959 </span><span class="lineNoCov">          0 :     __annotate_new(size());</span></a>
 <a name="960"><span class="lineNum">     960 </span><span class="lineNoCov">          0 :     __invalidate_all_iterators();</span></a>
 <a name="961"><span class="lineNum">     961 </span><span class="lineNoCov">          0 :     return __r;</span></a>
-<a name="962"><span class="lineNum">     962 </span>            : }</a>
+<a name="962"><span class="lineNum">     962 </span><span class="lineNoCov">          0 : }</span></a>
 <a name="963"><span class="lineNum">     963 </span>            : </a>
 <a name="964"><span class="lineNum">     964 </span>            : //  Allocate space for __n objects</a>
 <a name="965"><span class="lineNum">     965 </span>            : //  throws length_error if __n &gt; max_size()</a>
@@ -1059,7 +1059,7 @@
 <a name="997"><span class="lineNum">     997 </span>            : {</a>
 <a name="998"><span class="lineNum">     998 </span><span class="lineCov">       2250 :     return _VSTD::min&lt;size_type&gt;(__alloc_traits::max_size(this-&gt;__alloc()),</span></a>
 <a name="999"><span class="lineNum">     999 </span><span class="lineCov">       1125 :                                  numeric_limits&lt;difference_type&gt;::max());</span></a>
-<a name="1000"><span class="lineNum">    1000 </span>            : }</a>
+<a name="1000"><span class="lineNum">    1000 </span><span class="lineNoCov">          0 : }</span></a>
 <a name="1001"><span class="lineNum">    1001 </span>            : </a>
 <a name="1002"><span class="lineNum">    1002 </span>            : //  Precondition:  __new_size &gt; capacity()</a>
 <a name="1003"><span class="lineNum">    1003 </span>            : template &lt;class _Tp, class _Allocator&gt;</a>
@@ -1758,7 +1758,7 @@
 <a name="1696"><span class="lineNum">    1696 </span>            : #if _LIBCPP_STD_VER &gt; 14</a>
 <a name="1697"><span class="lineNum">    1697 </span><span class="lineNoCov">          0 :     return this-&gt;back();</span></a>
 <a name="1698"><span class="lineNum">    1698 </span>            : #endif</a>
-<a name="1699"><span class="lineNum">    1699 </span>            : }</a>
+<a name="1699"><span class="lineNum">    1699 </span><span class="lineNoCov">          0 : }</span></a>
 <a name="1700"><span class="lineNum">    1700 </span>            : </a>
 <a name="1701"><span class="lineNum">    1701 </span>            : #endif  // !_LIBCPP_CXX03_LANG</a>
 <a name="1702"><span class="lineNum">    1702 </span>            : </a>
@@ -1788,8 +1788,8 @@
 <a name="1726"><span class="lineNum">    1726 </span><span class="lineNoCov">          0 :     this-&gt;__destruct_at_end(_VSTD::move(__p + 1, this-&gt;__end_, __p));</span></a>
 <a name="1727"><span class="lineNum">    1727 </span><span class="lineNoCov">          0 :     this-&gt;__invalidate_iterators_past(__p-1);</span></a>
 <a name="1728"><span class="lineNum">    1728 </span><span class="lineNoCov">          0 :     iterator __r = __make_iter(__p);</span></a>
-<a name="1729"><span class="lineNum">    1729 </span><span class="lineNoCov">          0 :     return __r;</span></a>
-<a name="1730"><span class="lineNum">    1730 </span>            : }</a>
+<a name="1729"><span class="lineNum">    1729 </span>            :     return __r;</a>
+<a name="1730"><span class="lineNum">    1730 </span><span class="lineNoCov">          0 : }</span></a>
 <a name="1731"><span class="lineNum">    1731 </span>            : </a>
 <a name="1732"><span class="lineNum">    1732 </span>            : template &lt;class _Tp, class _Allocator&gt;</a>
 <a name="1733"><span class="lineNum">    1733 </span>            : typename vector&lt;_Tp, _Allocator&gt;::iterator</a>
@@ -1810,8 +1810,8 @@
 <a name="1748"><span class="lineNum">    1748 </span><span class="lineNoCov">          0 :         this-&gt;__invalidate_iterators_past(__p - 1);</span></a>
 <a name="1749"><span class="lineNum">    1749 </span><span class="lineNoCov">          0 :     }</span></a>
 <a name="1750"><span class="lineNum">    1750 </span><span class="lineCov">         48 :     iterator __r = __make_iter(__p);</span></a>
-<a name="1751"><span class="lineNum">    1751 </span><span class="lineCov">         48 :     return __r;</span></a>
-<a name="1752"><span class="lineNum">    1752 </span>            : }</a>
+<a name="1751"><span class="lineNum">    1751 </span>            :     return __r;</a>
+<a name="1752"><span class="lineNum">    1752 </span><span class="lineCov">         48 : }</span></a>
 <a name="1753"><span class="lineNum">    1753 </span>            : </a>
 <a name="1754"><span class="lineNum">    1754 </span>            : template &lt;class _Tp, class _Allocator&gt;</a>
 <a name="1755"><span class="lineNum">    1755 </span>            : void</a>
@@ -3424,7 +3424,7 @@
 <a name="3362"><span class="lineNum">    3362 </span>            : {</a>
 <a name="3363"><span class="lineNum">    3363 </span><span class="lineNoCov">          0 :     const typename vector&lt;_Tp, _Allocator&gt;::size_type __sz = __x.size();</span></a>
 <a name="3364"><span class="lineNum">    3364 </span><span class="lineNoCov">          0 :     return __sz == __y.size() &amp;&amp; _VSTD::equal(__x.begin(), __x.end(), __y.begin());</span></a>
-<a name="3365"><span class="lineNum">    3365 </span>            : }</a>
+<a name="3365"><span class="lineNum">    3365 </span><span class="lineNoCov">          0 : }</span></a>
 <a name="3366"><span class="lineNum">    3366 </span>            : </a>
 <a name="3367"><span class="lineNum">    3367 </span>            : template &lt;class _Tp, class _Allocator&gt;</a>
 <a name="3368"><span class="lineNum">    3368 </span>            : inline _LIBCPP_INLINE_VISIBILITY</a>

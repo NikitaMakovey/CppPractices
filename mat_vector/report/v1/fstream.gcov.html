@@ -32,12 +32,12 @@
             <td></td>
             <td class="headerItem">Lines:</td>
             <td class="headerCovTableEntry">0</td>
-            <td class="headerCovTableEntry">376</td>
+            <td class="headerCovTableEntry">390</td>
             <td class="headerCovTableEntryLo">0.0 %</td>
           </tr>
           <tr>
             <td class="headerItem">Date:</td>
-            <td class="headerValue">2019-10-23 01:03:53</td>
+            <td class="headerValue">2019-10-23 23:27:09</td>
             <td></td>
             <td class="headerItem">Functions:</td>
             <td class="headerCovTableEntry">0</td>
@@ -630,7 +630,7 @@
 <a name="568"><span class="lineNum">     568 </span><span class="lineNoCov">          0 :       }</span></a>
 <a name="569"><span class="lineNum">     569 </span><span class="lineNoCov">          0 :     }</span></a>
 <a name="570"><span class="lineNum">     570 </span><span class="lineNoCov">          0 :     return __rt;</span></a>
-<a name="571"><span class="lineNum">     571 </span>            : }</a>
+<a name="571"><span class="lineNum">     571 </span><span class="lineNoCov">          0 : }</span></a>
 <a name="572"><span class="lineNum">     572 </span>            : </a>
 <a name="573"><span class="lineNum">     573 </span>            : template &lt;class _CharT, class _Traits&gt;</a>
 <a name="574"><span class="lineNum">     574 </span>            : _LIBCPP_INLINE_VISIBILITY basic_filebuf&lt;_CharT, _Traits&gt;*</a>
@@ -776,7 +776,7 @@
 <a name="714"><span class="lineNum">     714 </span><span class="lineNoCov">          0 :     if (__file_ == 0)</span></a>
 <a name="715"><span class="lineNum">     715 </span><span class="lineNoCov">          0 :         return traits_type::eof();</span></a>
 <a name="716"><span class="lineNum">     716 </span><span class="lineNoCov">          0 :     bool __initial = __read_mode();</span></a>
-<a name="717"><span class="lineNum">     717 </span>            :     char_type __1buf;</a>
+<a name="717"><span class="lineNum">     717 </span><span class="lineNoCov">          0 :     char_type __1buf;</span></a>
 <a name="718"><span class="lineNum">     718 </span><span class="lineNoCov">          0 :     if (this-&gt;gptr() == 0)</span></a>
 <a name="719"><span class="lineNum">     719 </span><span class="lineNoCov">          0 :         this-&gt;setg(&amp;__1buf, &amp;__1buf+1, &amp;__1buf+1);</span></a>
 <a name="720"><span class="lineNum">     720 </span><span class="lineNoCov">          0 :     const size_t __unget_sz = __initial ? 0 : min&lt;size_t&gt;((this-&gt;egptr() - this-&gt;eback()) / 2, 4);</span></a>
@@ -805,7 +805,7 @@
 <a name="743"><span class="lineNum">     743 </span><span class="lineNoCov">          0 :             __extbufend_ = __extbuf_ + (__extbuf_ == __extbuf_min_ ? sizeof(__extbuf_min_) : __ebs_);</span></a>
 <a name="744"><span class="lineNum">     744 </span><span class="lineNoCov">          0 :             size_t __nmemb = _VSTD::min(static_cast&lt;size_t&gt;(__ibs_ - __unget_sz),</span></a>
 <a name="745"><span class="lineNum">     745 </span><span class="lineNoCov">          0 :                                  static_cast&lt;size_t&gt;(__extbufend_ - __extbufnext_));</span></a>
-<a name="746"><span class="lineNum">     746 </span>            :             codecvt_base::result __r;</a>
+<a name="746"><span class="lineNum">     746 </span><span class="lineNoCov">          0 :             codecvt_base::result __r;</span></a>
 <a name="747"><span class="lineNum">     747 </span><span class="lineNoCov">          0 :             __st_last_ = __st_;</span></a>
 <a name="748"><span class="lineNum">     748 </span><span class="lineNoCov">          0 :             size_t __nr = fread((void*) const_cast&lt;char *&gt;(__extbufnext_), 1, __nmemb, __file_);</span></a>
 <a name="749"><span class="lineNum">     749 </span><span class="lineNoCov">          0 :             if (__nr != 0)</span></a>
@@ -814,7 +814,7 @@
 <a name="752"><span class="lineNum">     752 </span><span class="lineNoCov">          0 :                     __throw_bad_cast();</span></a>
 <a name="753"><span class="lineNum">     753 </span>            : </a>
 <a name="754"><span class="lineNum">     754 </span><span class="lineNoCov">          0 :                 __extbufend_ = __extbufnext_ + __nr;</span></a>
-<a name="755"><span class="lineNum">     755 </span>            :                 char_type*  __inext;</a>
+<a name="755"><span class="lineNum">     755 </span><span class="lineNoCov">          0 :                 char_type*  __inext;</span></a>
 <a name="756"><span class="lineNum">     756 </span><span class="lineNoCov">          0 :                 __r = __cv_-&gt;in(__st_, __extbuf_, __extbufend_, __extbufnext_,</span></a>
 <a name="757"><span class="lineNum">     757 </span><span class="lineNoCov">          0 :                                        this-&gt;eback() + __unget_sz,</span></a>
 <a name="758"><span class="lineNum">     758 </span><span class="lineNoCov">          0 :                                        this-&gt;eback() + __ibs_, __inext);</span></a>
@@ -830,7 +830,7 @@
 <a name="768"><span class="lineNum">     768 </span><span class="lineNoCov">          0 :                     __c = traits_type::to_int_type(*this-&gt;gptr());</span></a>
 <a name="769"><span class="lineNum">     769 </span><span class="lineNoCov">          0 :                 }</span></a>
 <a name="770"><span class="lineNum">     770 </span><span class="lineNoCov">          0 :             }</span></a>
-<a name="771"><span class="lineNum">     771 </span>            :         }</a>
+<a name="771"><span class="lineNum">     771 </span><span class="lineNoCov">          0 :         }</span></a>
 <a name="772"><span class="lineNum">     772 </span><span class="lineNoCov">          0 :     }</span></a>
 <a name="773"><span class="lineNum">     773 </span>            :     else</a>
 <a name="774"><span class="lineNum">     774 </span><span class="lineNoCov">          0 :         __c = traits_type::to_int_type(*this-&gt;gptr());</span></a>
@@ -868,7 +868,7 @@
 <a name="806"><span class="lineNum">     806 </span><span class="lineNoCov">          0 :     if (__file_ == 0)</span></a>
 <a name="807"><span class="lineNum">     807 </span><span class="lineNoCov">          0 :         return traits_type::eof();</span></a>
 <a name="808"><span class="lineNum">     808 </span><span class="lineNoCov">          0 :     __write_mode();</span></a>
-<a name="809"><span class="lineNum">     809 </span>            :     char_type __1buf;</a>
+<a name="809"><span class="lineNum">     809 </span><span class="lineNoCov">          0 :     char_type __1buf;</span></a>
 <a name="810"><span class="lineNum">     810 </span><span class="lineNoCov">          0 :     char_type* __pb_save = this-&gt;pbase();</span></a>
 <a name="811"><span class="lineNum">     811 </span><span class="lineNoCov">          0 :     char_type* __epb_save = this-&gt;epptr();</span></a>
 <a name="812"><span class="lineNum">     812 </span><span class="lineNoCov">          0 :     if (!traits_type::eq_int_type(__c, traits_type::eof()))</span></a>
@@ -889,13 +889,13 @@
 <a name="827"><span class="lineNum">     827 </span>            :         else</a>
 <a name="828"><span class="lineNum">     828 </span>            :         {</a>
 <a name="829"><span class="lineNum">     829 </span><span class="lineNoCov">          0 :             char* __extbe = __extbuf_;</span></a>
-<a name="830"><span class="lineNum">     830 </span>            :             codecvt_base::result __r;</a>
+<a name="830"><span class="lineNum">     830 </span><span class="lineNoCov">          0 :             codecvt_base::result __r;</span></a>
 <a name="831"><span class="lineNum">     831 </span><span class="lineNoCov">          0 :             do</span></a>
 <a name="832"><span class="lineNum">     832 </span>            :             {</a>
 <a name="833"><span class="lineNum">     833 </span><span class="lineNoCov">          0 :                 if (!__cv_)</span></a>
 <a name="834"><span class="lineNum">     834 </span><span class="lineNoCov">          0 :                     __throw_bad_cast();</span></a>
 <a name="835"><span class="lineNum">     835 </span>            : </a>
-<a name="836"><span class="lineNum">     836 </span>            :                 const char_type* __e;</a>
+<a name="836"><span class="lineNum">     836 </span><span class="lineNoCov">          0 :                 const char_type* __e;</span></a>
 <a name="837"><span class="lineNum">     837 </span><span class="lineNoCov">          0 :                 __r = __cv_-&gt;out(__st_, this-&gt;pbase(), this-&gt;pptr(), __e,</span></a>
 <a name="838"><span class="lineNum">     838 </span><span class="lineNoCov">          0 :                                         __extbuf_, __extbuf_ + __ebs_, __extbe);</span></a>
 <a name="839"><span class="lineNum">     839 </span><span class="lineNoCov">          0 :                 if (__e == this-&gt;pbase())</span></a>
@@ -920,7 +920,7 @@
 <a name="858"><span class="lineNum">     858 </span>            :                 else</a>
 <a name="859"><span class="lineNum">     859 </span><span class="lineNoCov">          0 :                     return traits_type::eof();</span></a>
 <a name="860"><span class="lineNum">     860 </span><span class="lineNoCov">          0 :             } while (__r == codecvt_base::partial);</span></a>
-<a name="861"><span class="lineNum">     861 </span>            :         }</a>
+<a name="861"><span class="lineNum">     861 </span><span class="lineNoCov">          0 :         }</span></a>
 <a name="862"><span class="lineNum">     862 </span><span class="lineNoCov">          0 :         this-&gt;setp(__pb_save, __epb_save);</span></a>
 <a name="863"><span class="lineNum">     863 </span><span class="lineNoCov">          0 :     }</span></a>
 <a name="864"><span class="lineNum">     864 </span><span class="lineNoCov">          0 :     return traits_type::not_eof(__c);</span></a>
@@ -991,7 +991,7 @@
 <a name="929"><span class="lineNum">     929 </span><span class="lineNoCov">          0 :     if (__file_ == 0 || (__width &lt;= 0 &amp;&amp; __off != 0) || sync())</span></a>
 <a name="930"><span class="lineNum">     930 </span><span class="lineNoCov">          0 :         return pos_type(off_type(-1));</span></a>
 <a name="931"><span class="lineNum">     931 </span>            :     // __width &gt; 0 || __off == 0</a>
-<a name="932"><span class="lineNum">     932 </span>            :     int __whence;</a>
+<a name="932"><span class="lineNum">     932 </span><span class="lineNoCov">          0 :     int __whence;</span></a>
 <a name="933"><span class="lineNum">     933 </span><span class="lineNoCov">          0 :     switch (__way)</span></a>
 <a name="934"><span class="lineNum">     934 </span>            :     {</a>
 <a name="935"><span class="lineNum">     935 </span>            :     case ios_base::beg:</a>
@@ -1050,10 +1050,10 @@
 <a name="988"><span class="lineNum">     988 </span><span class="lineNoCov">          0 :         if (this-&gt;pptr() != this-&gt;pbase())</span></a>
 <a name="989"><span class="lineNum">     989 </span><span class="lineNoCov">          0 :             if (overflow() == traits_type::eof())</span></a>
 <a name="990"><span class="lineNum">     990 </span><span class="lineNoCov">          0 :                 return -1;</span></a>
-<a name="991"><span class="lineNum">     991 </span>            :         codecvt_base::result __r;</a>
+<a name="991"><span class="lineNum">     991 </span><span class="lineNoCov">          0 :         codecvt_base::result __r;</span></a>
 <a name="992"><span class="lineNum">     992 </span><span class="lineNoCov">          0 :         do</span></a>
 <a name="993"><span class="lineNum">     993 </span>            :         {</a>
-<a name="994"><span class="lineNum">     994 </span>            :             char* __extbe;</a>
+<a name="994"><span class="lineNum">     994 </span><span class="lineNoCov">          0 :             char* __extbe;</span></a>
 <a name="995"><span class="lineNum">     995 </span><span class="lineNoCov">          0 :             __r = __cv_-&gt;unshift(__st_, __extbuf_, __extbuf_ + __ebs_, __extbe);</span></a>
 <a name="996"><span class="lineNum">     996 </span><span class="lineNoCov">          0 :             size_t __nmemb = static_cast&lt;size_t&gt;(__extbe - __extbuf_);</span></a>
 <a name="997"><span class="lineNum">     997 </span><span class="lineNoCov">          0 :             if (fwrite(__extbuf_, 1, __nmemb, __file_) != __nmemb)</span></a>
@@ -1066,7 +1066,7 @@
 <a name="1004"><span class="lineNum">    1004 </span><span class="lineNoCov">          0 :     }</span></a>
 <a name="1005"><span class="lineNum">    1005 </span><span class="lineNoCov">          0 :     else if (__cm_ &amp; ios_base::in)</span></a>
 <a name="1006"><span class="lineNum">    1006 </span>            :     {</a>
-<a name="1007"><span class="lineNum">    1007 </span>            :         off_type __c;</a>
+<a name="1007"><span class="lineNum">    1007 </span><span class="lineNoCov">          0 :         off_type __c;</span></a>
 <a name="1008"><span class="lineNum">    1008 </span><span class="lineNoCov">          0 :         state_type __state = __st_last_;</span></a>
 <a name="1009"><span class="lineNum">    1009 </span><span class="lineNoCov">          0 :         bool __update_st = false;</span></a>
 <a name="1010"><span class="lineNum">    1010 </span><span class="lineNoCov">          0 :         if (__always_noconv_)</span></a>
@@ -1088,7 +1088,7 @@
 <a name="1026"><span class="lineNum">    1026 </span><span class="lineNoCov">          0 :                     __update_st = true;</span></a>
 <a name="1027"><span class="lineNum">    1027 </span><span class="lineNoCov">          0 :                 }</span></a>
 <a name="1028"><span class="lineNum">    1028 </span>            :             }</a>
-<a name="1029"><span class="lineNum">    1029 </span>            :         }</a>
+<a name="1029"><span class="lineNum">    1029 </span><span class="lineNoCov">          0 :         }</span></a>
 <a name="1030"><span class="lineNum">    1030 </span>            : #if defined(_LIBCPP_HAS_NO_OFF_T_FUNCTIONS)</a>
 <a name="1031"><span class="lineNum">    1031 </span>            :         if (fseek(__file_, -__c, SEEK_CUR))</a>
 <a name="1032"><span class="lineNum">    1032 </span>            :             return -1;</a>

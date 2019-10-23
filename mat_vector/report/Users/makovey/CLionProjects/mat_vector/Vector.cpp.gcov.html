@@ -31,13 +31,13 @@
             <td class="headerValue">main.info</td>
             <td></td>
             <td class="headerItem">Lines:</td>
-            <td class="headerCovTableEntry">153</td>
-            <td class="headerCovTableEntry">153</td>
+            <td class="headerCovTableEntry">155</td>
+            <td class="headerCovTableEntry">155</td>
             <td class="headerCovTableEntryHi">100.0 %</td>
           </tr>
           <tr>
             <td class="headerItem">Date:</td>
-            <td class="headerValue">2019-10-23 01:03:53</td>
+            <td class="headerValue">2019-10-23 23:27:09</td>
             <td></td>
             <td class="headerItem">Functions:</td>
             <td class="headerCovTableEntry">29</td>
@@ -126,8 +126,8 @@
 <a name="64"><span class="lineNum">      64 </span><span class="lineCov">         15 :     for (int i = 0; i &lt; sizeMathVector; i++) {</span></a>
 <a name="65"><span class="lineNum">      65 </span><span class="lineCov">         12 :         sum += mathVector[i] * mathVector[i];</span></a>
 <a name="66"><span class="lineNum">      66 </span><span class="lineCov">         12 :     }</span></a>
-<a name="67"><span class="lineNum">      67 </span><span class="lineCov">          3 :     return sqrt(sum);</span></a>
-<a name="68"><span class="lineNum">      68 </span>            : }</a>
+<a name="67"><span class="lineNum">      67 </span><span class="lineCov">          6 :     return sqrt(sum);</span></a>
+<a name="68"><span class="lineNum">      68 </span><span class="lineCov">          3 : }</span></a>
 <a name="69"><span class="lineNum">      69 </span>            : </a>
 <a name="70"><span class="lineNum">      70 </span><span class="lineCov">          1 : Vector Vector::normalized() const {</span></a>
 <a name="71"><span class="lineNum">      71 </span><span class="lineCov">          1 :     Vector vectorTemplate(*this);</span></a>
@@ -194,8 +194,8 @@
 <a name="132"><span class="lineNum">     132 </span><span class="lineCov">          1 :     double product = 0;</span></a>
 <a name="133"><span class="lineNum">     133 </span><span class="lineCov">          5 :     for (int i = 0; i &lt; sizeMathVector; i++)</span></a>
 <a name="134"><span class="lineNum">     134 </span><span class="lineCov">          4 :         product += mathVector[i] * rhs.mathVector[i];</span></a>
-<a name="135"><span class="lineNum">     135 </span><span class="lineCov">          1 :     return product;</span></a>
-<a name="136"><span class="lineNum">     136 </span>            : }</a>
+<a name="135"><span class="lineNum">     135 </span><span class="lineCov">          2 :     return product;</span></a>
+<a name="136"><span class="lineNum">     136 </span><span class="lineCov">          1 : }</span></a>
 <a name="137"><span class="lineNum">     137 </span>            : </a>
 <a name="138"><span class="lineNum">     138 </span><span class="lineCov">          1 : Vector Vector::operator*(double k) const {</span></a>
 <a name="139"><span class="lineNum">     139 </span><span class="lineCov">          1 :     Vector vectorTemplate(*this);</span></a>
@@ -244,7 +244,7 @@
 <a name="182"><span class="lineNum">     182 </span>            : </a>
 <a name="183"><span class="lineNum">     183 </span><span class="lineCov">          2 : bool Vector::operator==(const Vector &amp;rhs) const {</span></a>
 <a name="184"><span class="lineNum">     184 </span><span class="lineCov">          2 :     double e = 0.000000000001;</span></a>
-<a name="185"><span class="lineNum">     185 </span><span class="lineCov">          6 :     for (int i = 0; i &lt; sizeMathVector; i++) {</span></a>
+<a name="185"><span class="lineNum">     185 </span><span class="lineCov">          7 :     for (int i = 0; i &lt; sizeMathVector; i++) {</span></a>
 <a name="186"><span class="lineNum">     186 </span><span class="lineCov">          5 :         if (std::abs(mathVector[i] - rhs.mathVector[i]) &gt;= e)</span></a>
 <a name="187"><span class="lineNum">     187 </span><span class="lineCov">          1 :             return false;</span></a>
 <a name="188"><span class="lineNum">     188 </span><span class="lineCov">          4 :     }</span></a>
@@ -253,7 +253,7 @@
 <a name="191"><span class="lineNum">     191 </span>            : </a>
 <a name="192"><span class="lineNum">     192 </span><span class="lineCov">          2 : bool Vector::operator!=(const Vector &amp;rhs) const {</span></a>
 <a name="193"><span class="lineNum">     193 </span><span class="lineCov">          2 :     double e = 0.000000000001;</span></a>
-<a name="194"><span class="lineNum">     194 </span><span class="lineCov">          6 :     for (int i = 0; i &lt; sizeMathVector; i++) {</span></a>
+<a name="194"><span class="lineNum">     194 </span><span class="lineCov">          7 :     for (int i = 0; i &lt; sizeMathVector; i++) {</span></a>
 <a name="195"><span class="lineNum">     195 </span><span class="lineCov">          5 :         if (std::abs(mathVector[i] - rhs.mathVector[i]) &lt; e)</span></a>
 <a name="196"><span class="lineNum">     196 </span><span class="lineCov">          1 :             return false;</span></a>
 <a name="197"><span class="lineNum">     197 </span><span class="lineCov">          4 :     }</span></a>

@@ -1,3 +1,4 @@
+/Users/makovey/CLionProjects/mat_vector/CMakeFiles/mat_vector.dir
 /Users/makovey/CLionProjects/mat_vector/CMakeFiles/rebuild_cache.dir
 /Users/makovey/CLionProjects/mat_vector/CMakeFiles/edit_cache.dir
-/Users/makovey/CLionProjects/mat_vector/CMakeFiles/mat_vector.dir
+/Users/makovey/CLionProjects/mat_vector/CMakeFiles/Library.dir

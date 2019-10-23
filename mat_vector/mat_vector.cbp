@@ -78,9 +78,6 @@
 		<Unit filename="/Users/makovey/CLionProjects/mat_vector/Vector.h">
 			<Option target="mat_vector"/>
 		</Unit>
-		<Unit filename="/Users/makovey/CLionProjects/mat_vector/catch.h">
-			<Option target="mat_vector"/>
-		</Unit>
 		<Unit filename="/Users/makovey/CLionProjects/mat_vector/main.cpp">
 			<Option target="mat_vector"/>
 		</Unit>

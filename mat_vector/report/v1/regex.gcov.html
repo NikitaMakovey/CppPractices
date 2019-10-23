@@ -32,12 +32,12 @@
             <td></td>
             <td class="headerItem">Lines:</td>
             <td class="headerCovTableEntry">0</td>
-            <td class="headerCovTableEntry">1941</td>
+            <td class="headerCovTableEntry">1976</td>
             <td class="headerCovTableEntryLo">0.0 %</td>
           </tr>
           <tr>
             <td class="headerItem">Date:</td>
-            <td class="headerValue">2019-10-23 01:03:53</td>
+            <td class="headerValue">2019-10-23 23:27:09</td>
             <td></td>
             <td class="headerItem">Functions:</td>
             <td class="headerCovTableEntry">0</td>
@@ -1682,7 +1682,7 @@
 <a name="1620"><span class="lineNum">    1620 </span><span class="lineNoCov">          0 :             __s.__do_ = __state::__accept_but_not_consume;</span></a>
 <a name="1621"><span class="lineNum">    1621 </span><span class="lineNoCov">          0 :             __s.__node_ = this-&gt;second();</span></a>
 <a name="1622"><span class="lineNum">    1622 </span>            :         }</a>
-<a name="1623"><span class="lineNum">    1623 </span>            :     }</a>
+<a name="1623"><span class="lineNum">    1623 </span><span class="lineNoCov">          0 :     }</span></a>
 <a name="1624"><span class="lineNum">    1624 </span><span class="lineNoCov">          0 : }</span></a>
 <a name="1625"><span class="lineNum">    1625 </span>            : </a>
 <a name="1626"><span class="lineNum">    1626 </span>            : template &lt;class _CharT&gt;</a>
@@ -2009,7 +2009,7 @@
 <a name="1947"><span class="lineNum">    1947 </span><span class="lineNoCov">          0 :             bool __is_c2_b = __c2 == '_' ||</span></a>
 <a name="1948"><span class="lineNum">    1948 </span><span class="lineNoCov">          0 :                              __traits_.isctype(__c2, ctype_base::alnum);</span></a>
 <a name="1949"><span class="lineNum">    1949 </span><span class="lineNoCov">          0 :             __is_word_b = __is_c1_b != __is_c2_b;</span></a>
-<a name="1950"><span class="lineNum">    1950 </span>            :         }</a>
+<a name="1950"><span class="lineNum">    1950 </span><span class="lineNoCov">          0 :         }</span></a>
 <a name="1951"><span class="lineNum">    1951 </span><span class="lineNoCov">          0 :     }</span></a>
 <a name="1952"><span class="lineNum">    1952 </span><span class="lineNoCov">          0 :     if (__is_word_b != __invert_)</span></a>
 <a name="1953"><span class="lineNum">    1953 </span>            :     {</a>
@@ -3181,9 +3181,9 @@
 <a name="3119"><span class="lineNum">    3119 </span><span class="lineNoCov">          0 :             __throw_regex_error&lt;regex_constants::__re_err_empty&gt;();</span></a>
 <a name="3120"><span class="lineNum">    3120 </span><span class="lineNoCov">          0 :         __push_alternation(__sa, __sb);</span></a>
 <a name="3121"><span class="lineNum">    3121 </span><span class="lineNoCov">          0 :         __first = __temp;</span></a>
-<a name="3122"><span class="lineNum">    3122 </span>            :     }</a>
+<a name="3122"><span class="lineNum">    3122 </span><span class="lineNoCov">          0 :     }</span></a>
 <a name="3123"><span class="lineNum">    3123 </span><span class="lineNoCov">          0 :     return __first;</span></a>
-<a name="3124"><span class="lineNum">    3124 </span>            : }</a>
+<a name="3124"><span class="lineNum">    3124 </span><span class="lineNoCov">          0 : }</span></a>
 <a name="3125"><span class="lineNum">    3125 </span>            : </a>
 <a name="3126"><span class="lineNum">    3126 </span>            : template &lt;class _CharT, class _Traits&gt;</a>
 <a name="3127"><span class="lineNum">    3127 </span>            : template &lt;class _ForwardIterator&gt;</a>
@@ -3200,7 +3200,7 @@
 <a name="3138"><span class="lineNum">    3138 </span><span class="lineNoCov">          0 :         __temp = __parse_ERE_expression(__first, __last);</span></a>
 <a name="3139"><span class="lineNum">    3139 </span><span class="lineNoCov">          0 :     } while (__temp != __first);</span></a>
 <a name="3140"><span class="lineNum">    3140 </span><span class="lineNoCov">          0 :     return __first;</span></a>
-<a name="3141"><span class="lineNum">    3141 </span>            : }</a>
+<a name="3141"><span class="lineNum">    3141 </span><span class="lineNoCov">          0 : }</span></a>
 <a name="3142"><span class="lineNum">    3142 </span>            : </a>
 <a name="3143"><span class="lineNum">    3143 </span>            : template &lt;class _CharT, class _Traits&gt;</a>
 <a name="3144"><span class="lineNum">    3144 </span>            : template &lt;class _ForwardIterator&gt;</a>
@@ -3233,15 +3233,15 @@
 <a name="3171"><span class="lineNum">    3171 </span><span class="lineNoCov">          0 :             __push_end_marked_subexpression(__temp_count);</span></a>
 <a name="3172"><span class="lineNum">    3172 </span><span class="lineNoCov">          0 :             --__open_count_;</span></a>
 <a name="3173"><span class="lineNum">    3173 </span><span class="lineNoCov">          0 :             ++__temp;</span></a>
-<a name="3174"><span class="lineNum">    3174 </span><span class="lineNoCov">          0 :             break;</span></a>
-<a name="3175"><span class="lineNum">    3175 </span>            :         }</a>
+<a name="3174"><span class="lineNum">    3174 </span>            :             break;</a>
+<a name="3175"><span class="lineNum">    3175 </span><span class="lineNoCov">          0 :         }</span></a>
 <a name="3176"><span class="lineNum">    3176 </span><span class="lineNoCov">          0 :     }</span></a>
 <a name="3177"><span class="lineNum">    3177 </span><span class="lineNoCov">          0 :     if (__temp != __first)</span></a>
 <a name="3178"><span class="lineNum">    3178 </span><span class="lineNoCov">          0 :         __temp = __parse_ERE_dupl_symbol(__temp, __last, __e, __mexp_begin+1,</span></a>
 <a name="3179"><span class="lineNum">    3179 </span><span class="lineNoCov">          0 :                                          __marked_count_+1);</span></a>
 <a name="3180"><span class="lineNum">    3180 </span><span class="lineNoCov">          0 :     __first = __temp;</span></a>
 <a name="3181"><span class="lineNum">    3181 </span><span class="lineNoCov">          0 :     return __first;</span></a>
-<a name="3182"><span class="lineNum">    3182 </span>            : }</a>
+<a name="3182"><span class="lineNum">    3182 </span><span class="lineNoCov">          0 : }</span></a>
 <a name="3183"><span class="lineNum">    3183 </span>            : </a>
 <a name="3184"><span class="lineNum">    3184 </span>            : template &lt;class _CharT, class _Traits&gt;</a>
 <a name="3185"><span class="lineNum">    3185 </span>            : template &lt;class _ForwardIterator&gt;</a>
@@ -3255,7 +3255,7 @@
 <a name="3193"><span class="lineNum">    3193 </span><span class="lineNoCov">          0 :         if (__temp == __first)</span></a>
 <a name="3194"><span class="lineNum">    3194 </span><span class="lineNoCov">          0 :             break;</span></a>
 <a name="3195"><span class="lineNum">    3195 </span><span class="lineNoCov">          0 :         __first = __temp;</span></a>
-<a name="3196"><span class="lineNum">    3196 </span>            :     }</a>
+<a name="3196"><span class="lineNum">    3196 </span><span class="lineNoCov">          0 :     }</span></a>
 <a name="3197"><span class="lineNum">    3197 </span><span class="lineNoCov">          0 :     return __first;</span></a>
 <a name="3198"><span class="lineNum">    3198 </span>            : }</a>
 <a name="3199"><span class="lineNum">    3199 </span>            : </a>
@@ -3303,7 +3303,7 @@
 <a name="3241"><span class="lineNum">    3241 </span><span class="lineNoCov">          0 :             __first = __parse_BACKREF(__first, __last);</span></a>
 <a name="3242"><span class="lineNum">    3242 </span><span class="lineNoCov">          0 :     }</span></a>
 <a name="3243"><span class="lineNum">    3243 </span><span class="lineNoCov">          0 :     return __first;</span></a>
-<a name="3244"><span class="lineNum">    3244 </span>            : }</a>
+<a name="3244"><span class="lineNum">    3244 </span><span class="lineNoCov">          0 : }</span></a>
 <a name="3245"><span class="lineNum">    3245 </span>            : </a>
 <a name="3246"><span class="lineNum">    3246 </span>            : template &lt;class _CharT, class _Traits&gt;</a>
 <a name="3247"><span class="lineNum">    3247 </span>            : template &lt;class _ForwardIterator&gt;</a>
@@ -3329,7 +3329,7 @@
 <a name="3267"><span class="lineNum">    3267 </span><span class="lineNoCov">          0 :     }</span></a>
 <a name="3268"><span class="lineNum">    3268 </span><span class="lineNoCov">          0 :     __first = __temp;</span></a>
 <a name="3269"><span class="lineNum">    3269 </span><span class="lineNoCov">          0 :     return __first;</span></a>
-<a name="3270"><span class="lineNum">    3270 </span>            : }</a>
+<a name="3270"><span class="lineNum">    3270 </span><span class="lineNoCov">          0 : }</span></a>
 <a name="3271"><span class="lineNum">    3271 </span>            : </a>
 <a name="3272"><span class="lineNum">    3272 </span>            : template &lt;class _CharT, class _Traits&gt;</a>
 <a name="3273"><span class="lineNum">    3273 </span>            : template &lt;class _ForwardIterator&gt;</a>
@@ -3355,7 +3355,7 @@
 <a name="3293"><span class="lineNum">    3293 </span><span class="lineNoCov">          0 :     }</span></a>
 <a name="3294"><span class="lineNum">    3294 </span><span class="lineNoCov">          0 :     __first = __temp;</span></a>
 <a name="3295"><span class="lineNum">    3295 </span><span class="lineNoCov">          0 :     return __first;</span></a>
-<a name="3296"><span class="lineNum">    3296 </span>            : }</a>
+<a name="3296"><span class="lineNum">    3296 </span><span class="lineNoCov">          0 : }</span></a>
 <a name="3297"><span class="lineNum">    3297 </span>            : </a>
 <a name="3298"><span class="lineNum">    3298 </span>            : template &lt;class _CharT, class _Traits&gt;</a>
 <a name="3299"><span class="lineNum">    3299 </span>            : template &lt;class _ForwardIterator&gt;</a>
@@ -3641,9 +3641,9 @@
 <a name="3579"><span class="lineNum">    3579 </span>            :                                     true);</a>
 <a name="3580"><span class="lineNum">    3580 </span>            :                     }</a>
 <a name="3581"><span class="lineNum">    3581 </span><span class="lineNoCov">          0 :                     __first = __temp;</span></a>
-<a name="3582"><span class="lineNum">    3582 </span>            :                 }</a>
+<a name="3582"><span class="lineNum">    3582 </span><span class="lineNoCov">          0 :                 }</span></a>
 <a name="3583"><span class="lineNum">    3583 </span><span class="lineNoCov">          0 :             }</span></a>
-<a name="3584"><span class="lineNum">    3584 </span>            :         }</a>
+<a name="3584"><span class="lineNum">    3584 </span><span class="lineNoCov">          0 :         }</span></a>
 <a name="3585"><span class="lineNum">    3585 </span><span class="lineNoCov">          0 :     }</span></a>
 <a name="3586"><span class="lineNum">    3586 </span><span class="lineNoCov">          0 :     return __first;</span></a>
 <a name="3587"><span class="lineNum">    3587 </span>            : }</a>
@@ -3694,7 +3694,7 @@
 <a name="3632"><span class="lineNum">    3632 </span><span class="lineNoCov">          0 :             break;</span></a>
 <a name="3633"><span class="lineNum">    3633 </span>            :         case '{':</a>
 <a name="3634"><span class="lineNum">    3634 </span>            :             {</a>
-<a name="3635"><span class="lineNum">    3635 </span>            :                 int __min;</a>
+<a name="3635"><span class="lineNum">    3635 </span><span class="lineNoCov">          0 :                 int __min;</span></a>
 <a name="3636"><span class="lineNum">    3636 </span><span class="lineNoCov">          0 :                 _ForwardIterator __temp = __parse_DUP_COUNT(++__first, __last, __min);</span></a>
 <a name="3637"><span class="lineNum">    3637 </span><span class="lineNoCov">          0 :                 if (__temp == __first)</span></a>
 <a name="3638"><span class="lineNum">    3638 </span><span class="lineNoCov">          0 :                     __throw_regex_error&lt;regex_constants::error_badbrace&gt;();</span></a>
@@ -3747,12 +3747,12 @@
 <a name="3685"><span class="lineNum">    3685 </span><span class="lineNoCov">          0 :                         }</span></a>
 <a name="3686"><span class="lineNum">    3686 </span>            :                         else</a>
 <a name="3687"><span class="lineNum">    3687 </span><span class="lineNoCov">          0 :                             __push_loop(__min, __max, __s, __mexp_begin, __mexp_end);</span></a>
-<a name="3688"><span class="lineNum">    3688 </span>            :                     }</a>
+<a name="3688"><span class="lineNum">    3688 </span><span class="lineNoCov">          0 :                     }</span></a>
 <a name="3689"><span class="lineNum">    3689 </span><span class="lineNoCov">          0 :                     break;</span></a>
 <a name="3690"><span class="lineNum">    3690 </span>            :                 default:</a>
 <a name="3691"><span class="lineNum">    3691 </span><span class="lineNoCov">          0 :                     __throw_regex_error&lt;regex_constants::error_badbrace&gt;();</span></a>
 <a name="3692"><span class="lineNum">    3692 </span>            :                 }</a>
-<a name="3693"><span class="lineNum">    3693 </span>            :             }</a>
+<a name="3693"><span class="lineNum">    3693 </span><span class="lineNoCov">          0 :             }</span></a>
 <a name="3694"><span class="lineNum">    3694 </span><span class="lineNoCov">          0 :             break;</span></a>
 <a name="3695"><span class="lineNum">    3695 </span>            :         }</a>
 <a name="3696"><span class="lineNum">    3696 </span><span class="lineNoCov">          0 :     }</span></a>
@@ -3816,7 +3816,7 @@
 <a name="3754"><span class="lineNum">    3754 </span><span class="lineNoCov">          0 :             if (__temp == __first)</span></a>
 <a name="3755"><span class="lineNum">    3755 </span><span class="lineNoCov">          0 :                 break;</span></a>
 <a name="3756"><span class="lineNum">    3756 </span><span class="lineNoCov">          0 :             __first = __temp;</span></a>
-<a name="3757"><span class="lineNum">    3757 </span>            :         }</a>
+<a name="3757"><span class="lineNum">    3757 </span><span class="lineNoCov">          0 :         }</span></a>
 <a name="3758"><span class="lineNum">    3758 </span><span class="lineNoCov">          0 :     }</span></a>
 <a name="3759"><span class="lineNum">    3759 </span><span class="lineNoCov">          0 :     return __first;</span></a>
 <a name="3760"><span class="lineNum">    3760 </span>            : }</a>
@@ -4045,11 +4045,11 @@
 <a name="3983"><span class="lineNum">    3983 </span><span class="lineNoCov">          0 :     if (__temp == __last)</span></a>
 <a name="3984"><span class="lineNum">    3984 </span><span class="lineNoCov">          0 :         __throw_regex_error&lt;regex_constants::error_brack&gt;();</span></a>
 <a name="3985"><span class="lineNum">    3985 </span>            :     // [__first, __temp) contains all text in [= ... =]</a>
-<a name="3986"><span class="lineNum">    3986 </span>            :     string_type __collate_name =</a>
+<a name="3986"><span class="lineNum">    3986 </span><span class="lineNoCov">          0 :     string_type __collate_name =</span></a>
 <a name="3987"><span class="lineNum">    3987 </span><span class="lineNoCov">          0 :         __traits_.lookup_collatename(__first, __temp);</span></a>
 <a name="3988"><span class="lineNum">    3988 </span><span class="lineNoCov">          0 :     if (__collate_name.empty())</span></a>
 <a name="3989"><span class="lineNum">    3989 </span><span class="lineNoCov">          0 :         __throw_regex_error&lt;regex_constants::error_collate&gt;();</span></a>
-<a name="3990"><span class="lineNum">    3990 </span>            :     string_type __equiv_name =</a>
+<a name="3990"><span class="lineNum">    3990 </span><span class="lineNoCov">          0 :     string_type __equiv_name =</span></a>
 <a name="3991"><span class="lineNum">    3991 </span><span class="lineNoCov">          0 :         __traits_.transform_primary(__collate_name.begin(),</span></a>
 <a name="3992"><span class="lineNum">    3992 </span><span class="lineNoCov">          0 :                                     __collate_name.end());</span></a>
 <a name="3993"><span class="lineNum">    3993 </span><span class="lineNoCov">          0 :     if (!__equiv_name.empty())</span></a>
@@ -4095,7 +4095,7 @@
 <a name="4033"><span class="lineNum">    4033 </span><span class="lineNoCov">          0 :     __ml-&gt;__add_class(__class_type);</span></a>
 <a name="4034"><span class="lineNum">    4034 </span><span class="lineNoCov">          0 :     __first = _VSTD::next(__temp, 2);</span></a>
 <a name="4035"><span class="lineNum">    4035 </span><span class="lineNoCov">          0 :     return __first;</span></a>
-<a name="4036"><span class="lineNum">    4036 </span>            : }</a>
+<a name="4036"><span class="lineNum">    4036 </span><span class="lineNoCov">          0 : }</span></a>
 <a name="4037"><span class="lineNum">    4037 </span>            : </a>
 <a name="4038"><span class="lineNum">    4038 </span>            : template &lt;class _CharT, class _Traits&gt;</a>
 <a name="4039"><span class="lineNum">    4039 </span>            : template &lt;class _ForwardIterator&gt;</a>
@@ -4123,7 +4123,7 @@
 <a name="4061"><span class="lineNum">    4061 </span>            :     }</a>
 <a name="4062"><span class="lineNum">    4062 </span><span class="lineNoCov">          0 :     __first = _VSTD::next(__temp, 2);</span></a>
 <a name="4063"><span class="lineNum">    4063 </span><span class="lineNoCov">          0 :     return __first;</span></a>
-<a name="4064"><span class="lineNum">    4064 </span>            : }</a>
+<a name="4064"><span class="lineNum">    4064 </span><span class="lineNoCov">          0 : }</span></a>
 <a name="4065"><span class="lineNum">    4065 </span>            : </a>
 <a name="4066"><span class="lineNum">    4066 </span>            : template &lt;class _CharT, class _Traits&gt;</a>
 <a name="4067"><span class="lineNum">    4067 </span>            : template &lt;class _ForwardIterator&gt;</a>
@@ -4171,9 +4171,9 @@
 <a name="4109"><span class="lineNum">    4109 </span><span class="lineNoCov">          0 :             __push_empty();</span></a>
 <a name="4110"><span class="lineNum">    4110 </span><span class="lineNoCov">          0 :         __push_alternation(__sa, __sb);</span></a>
 <a name="4111"><span class="lineNum">    4111 </span><span class="lineNoCov">          0 :         __first = __temp;</span></a>
-<a name="4112"><span class="lineNum">    4112 </span>            :     }</a>
+<a name="4112"><span class="lineNum">    4112 </span><span class="lineNoCov">          0 :     }</span></a>
 <a name="4113"><span class="lineNum">    4113 </span><span class="lineNoCov">          0 :     return __first;</span></a>
-<a name="4114"><span class="lineNum">    4114 </span>            : }</a>
+<a name="4114"><span class="lineNum">    4114 </span><span class="lineNoCov">          0 : }</span></a>
 <a name="4115"><span class="lineNum">    4115 </span>            : </a>
 <a name="4116"><span class="lineNum">    4116 </span>            : template &lt;class _CharT, class _Traits&gt;</a>
 <a name="4117"><span class="lineNum">    4117 </span>            : template &lt;class _ForwardIterator&gt;</a>
@@ -4187,7 +4187,7 @@
 <a name="4125"><span class="lineNum">    4125 </span><span class="lineNoCov">          0 :         if (__temp == __first)</span></a>
 <a name="4126"><span class="lineNum">    4126 </span><span class="lineNoCov">          0 :             break;</span></a>
 <a name="4127"><span class="lineNum">    4127 </span><span class="lineNoCov">          0 :         __first = __temp;</span></a>
-<a name="4128"><span class="lineNum">    4128 </span>            :     }</a>
+<a name="4128"><span class="lineNum">    4128 </span><span class="lineNoCov">          0 :     }</span></a>
 <a name="4129"><span class="lineNum">    4129 </span><span class="lineNoCov">          0 :     return __first;</span></a>
 <a name="4130"><span class="lineNum">    4130 </span>            : }</a>
 <a name="4131"><span class="lineNum">    4131 </span>            : </a>
@@ -4210,7 +4210,7 @@
 <a name="4148"><span class="lineNum">    4148 </span>            :     else</a>
 <a name="4149"><span class="lineNum">    4149 </span><span class="lineNoCov">          0 :         __first = __temp;</span></a>
 <a name="4150"><span class="lineNum">    4150 </span><span class="lineNoCov">          0 :     return __first;</span></a>
-<a name="4151"><span class="lineNum">    4151 </span>            : }</a>
+<a name="4151"><span class="lineNum">    4151 </span><span class="lineNoCov">          0 : }</span></a>
 <a name="4152"><span class="lineNum">    4152 </span>            : </a>
 <a name="4153"><span class="lineNum">    4153 </span>            : template &lt;class _CharT, class _Traits&gt;</a>
 <a name="4154"><span class="lineNum">    4154 </span>            : template &lt;class _ForwardIterator&gt;</a>
@@ -4246,7 +4246,7 @@
 <a name="4184"><span class="lineNum">    4184 </span><span class="lineNoCov">          0 :                         __first = ++__temp;</span></a>
 <a name="4185"><span class="lineNum">    4185 </span><span class="lineNoCov">          0 :                     }</span></a>
 <a name="4186"><span class="lineNum">    4186 </span><span class="lineNoCov">          0 :                 }</span></a>
-<a name="4187"><span class="lineNum">    4187 </span>            :             }</a>
+<a name="4187"><span class="lineNum">    4187 </span><span class="lineNoCov">          0 :             }</span></a>
 <a name="4188"><span class="lineNum">    4188 </span><span class="lineNoCov">          0 :             break;</span></a>
 <a name="4189"><span class="lineNum">    4189 </span>            :         case '(':</a>
 <a name="4190"><span class="lineNum">    4190 </span>            :             {</a>
@@ -4286,7 +4286,7 @@
 <a name="4224"><span class="lineNum">    4224 </span>            :                         }</a>
 <a name="4225"><span class="lineNum">    4225 </span><span class="lineNoCov">          0 :                     }</span></a>
 <a name="4226"><span class="lineNum">    4226 </span><span class="lineNoCov">          0 :                 }</span></a>
-<a name="4227"><span class="lineNum">    4227 </span>            :             }</a>
+<a name="4227"><span class="lineNum">    4227 </span><span class="lineNoCov">          0 :             }</span></a>
 <a name="4228"><span class="lineNum">    4228 </span><span class="lineNoCov">          0 :             break;</span></a>
 <a name="4229"><span class="lineNum">    4229 </span>            :         }</a>
 <a name="4230"><span class="lineNum">    4230 </span><span class="lineNoCov">          0 :     }</span></a>
@@ -4339,8 +4339,8 @@
 <a name="4277"><span class="lineNum">    4277 </span><span class="lineNoCov">          0 :                     __push_end_marked_subexpression(__temp_count);</span></a>
 <a name="4278"><span class="lineNum">    4278 </span><span class="lineNoCov">          0 :                     --__open_count_;</span></a>
 <a name="4279"><span class="lineNum">    4279 </span><span class="lineNoCov">          0 :                     ++__first;</span></a>
-<a name="4280"><span class="lineNum">    4280 </span>            :                 }</a>
-<a name="4281"><span class="lineNum">    4281 </span>            :             }</a>
+<a name="4280"><span class="lineNum">    4280 </span><span class="lineNoCov">          0 :                 }</span></a>
+<a name="4281"><span class="lineNum">    4281 </span><span class="lineNoCov">          0 :             }</span></a>
 <a name="4282"><span class="lineNum">    4282 </span><span class="lineNoCov">          0 :             break;</span></a>
 <a name="4283"><span class="lineNum">    4283 </span>            :         case '*':</a>
 <a name="4284"><span class="lineNum">    4284 </span>            :         case '+':</a>
@@ -4426,7 +4426,7 @@
 <a name="4364"><span class="lineNum">    4364 </span>            : {</a>
 <a name="4365"><span class="lineNum">    4365 </span><span class="lineNoCov">          0 :     if (__first != __last)</span></a>
 <a name="4366"><span class="lineNum">    4366 </span>            :     {</a>
-<a name="4367"><span class="lineNum">    4367 </span>            :         __bracket_expression&lt;_CharT, _Traits&gt;* __ml;</a>
+<a name="4367"><span class="lineNum">    4367 </span><span class="lineNoCov">          0 :         __bracket_expression&lt;_CharT, _Traits&gt;* __ml;</span></a>
 <a name="4368"><span class="lineNum">    4368 </span><span class="lineNoCov">          0 :         switch (*__first)</span></a>
 <a name="4369"><span class="lineNum">    4369 </span>            :         {</a>
 <a name="4370"><span class="lineNum">    4370 </span>            :         case 'd':</a>
@@ -4477,7 +4477,7 @@
 <a name="4415"><span class="lineNum">    4415 </span>            :     {</a>
 <a name="4416"><span class="lineNum">    4416 </span><span class="lineNoCov">          0 :         _ForwardIterator __t;</span></a>
 <a name="4417"><span class="lineNum">    4417 </span><span class="lineNoCov">          0 :         unsigned __sum = 0;</span></a>
-<a name="4418"><span class="lineNum">    4418 </span>            :         int __hd;</a>
+<a name="4418"><span class="lineNum">    4418 </span><span class="lineNoCov">          0 :         int __hd;</span></a>
 <a name="4419"><span class="lineNum">    4419 </span><span class="lineNoCov">          0 :         switch (*__first)</span></a>
 <a name="4420"><span class="lineNum">    4420 </span>            :         {</a>
 <a name="4421"><span class="lineNum">    4421 </span>            :         case 'f':</a>
@@ -4655,9 +4655,9 @@
 <a name="4593"><span class="lineNum">    4593 </span><span class="lineNoCov">          0 :         __first = __t1;</span></a>
 <a name="4594"><span class="lineNum">    4594 </span><span class="lineNoCov">          0 :         if (__first != __last)</span></a>
 <a name="4595"><span class="lineNum">    4595 </span><span class="lineNoCov">          0 :             ++__first;</span></a>
-<a name="4596"><span class="lineNum">    4596 </span>            :     }</a>
+<a name="4596"><span class="lineNum">    4596 </span><span class="lineNoCov">          0 :     }</span></a>
 <a name="4597"><span class="lineNum">    4597 </span><span class="lineNoCov">          0 :     return __first;</span></a>
-<a name="4598"><span class="lineNum">    4598 </span>            : }</a>
+<a name="4598"><span class="lineNum">    4598 </span><span class="lineNoCov">          0 : }</span></a>
 <a name="4599"><span class="lineNum">    4599 </span>            : </a>
 <a name="4600"><span class="lineNum">    4600 </span>            : template &lt;class _CharT, class _Traits&gt;</a>
 <a name="4601"><span class="lineNum">    4601 </span>            : template &lt;class _ForwardIterator&gt;</a>
@@ -4686,9 +4686,9 @@
 <a name="4624"><span class="lineNum">    4624 </span><span class="lineNoCov">          0 :         __first = __t1;</span></a>
 <a name="4625"><span class="lineNum">    4625 </span><span class="lineNoCov">          0 :         if (__first != __last)</span></a>
 <a name="4626"><span class="lineNum">    4626 </span><span class="lineNoCov">          0 :             ++__first;</span></a>
-<a name="4627"><span class="lineNum">    4627 </span>            :     }</a>
+<a name="4627"><span class="lineNum">    4627 </span><span class="lineNoCov">          0 :     }</span></a>
 <a name="4628"><span class="lineNum">    4628 </span><span class="lineNoCov">          0 :     return __first;</span></a>
-<a name="4629"><span class="lineNum">    4629 </span>            : }</a>
+<a name="4629"><span class="lineNum">    4629 </span><span class="lineNoCov">          0 : }</span></a>
 <a name="4630"><span class="lineNum">    4630 </span>            : </a>
 <a name="4631"><span class="lineNum">    4631 </span>            : template &lt;class _CharT, class _Traits&gt;</a>
 <a name="4632"><span class="lineNum">    4632 </span>            : void</a>
@@ -6097,7 +6097,7 @@
 <a name="6035"><span class="lineNum">    6035 </span><span class="lineNoCov">          0 :             __m.__matches_.clear();</span></a>
 <a name="6036"><span class="lineNum">    6036 </span><span class="lineNoCov">          0 :     }</span></a>
 <a name="6037"><span class="lineNum">    6037 </span><span class="lineNoCov">          0 :     return __r;</span></a>
-<a name="6038"><span class="lineNum">    6038 </span>            : }</a>
+<a name="6038"><span class="lineNum">    6038 </span><span class="lineNoCov">          0 : }</span></a>
 <a name="6039"><span class="lineNum">    6039 </span>            : </a>
 <a name="6040"><span class="lineNum">    6040 </span>            : template &lt;class _BidirectionalIterator, class _CharT, class _Traits&gt;</a>
 <a name="6041"><span class="lineNum">    6041 </span>            : inline _LIBCPP_INLINE_VISIBILITY</a>

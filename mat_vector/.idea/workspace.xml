@@ -11,7 +11,188 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8556371b-4e06-4e10-ad58-50b1beebdc65" name="Default Changelist" comment="" />
+    <list default="true" id="8556371b-4e06-4e10-ad58-50b1beebdc65" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.dSYM/Contents/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.dSYM/Contents/Resources/DWARF/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/mat_vector.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/mat_vector.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/mat_vector.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/mat_vector.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/mat_vector.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/mat_vector.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/mat_vector.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/mat_vector.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/mat_vector.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/mat_vector.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/mat_vector.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/mat_vector.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/mat_vector.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/mat_vector.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/mat_vector.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/mat_vector.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/mat_vector.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/mat_vector.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/mat_vector.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/mat_vector.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matrix.gcda" beforeDir="false" afterPath="$PROJECT_DIR$/Matrix.gcda" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matrix.gcno" beforeDir="false" afterPath="$PROJECT_DIR$/Matrix.gcno" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vector.gcda" beforeDir="false" afterPath="$PROJECT_DIR$/Vector.gcda" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vector.gcno" beforeDir="false" afterPath="$PROJECT_DIR$/Vector.gcno" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main" beforeDir="false" afterPath="$PROJECT_DIR$/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.gcda" beforeDir="false" afterPath="$PROJECT_DIR$/main.gcda" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.gcno" beforeDir="false" afterPath="$PROJECT_DIR$/main.gcno" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.info" beforeDir="false" afterPath="$PROJECT_DIR$/main.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mat_vector" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mat_vector.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/mat_vector.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_ctype.h.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_ctype.h.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_ctype.h.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_ctype.h.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_ctype.h.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_ctype.h.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/index-sort-f.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/index-sort-f.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/index-sort-l.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/index-sort-l.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/math.h.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/math.h.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/math.h.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/math.h.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/math.h.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/math.h.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Users/makovey/CLionProjects/mat_vector/Matrix.cpp.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/Users/makovey/CLionProjects/mat_vector/Matrix.cpp.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Users/makovey/CLionProjects/mat_vector/Matrix.cpp.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/Users/makovey/CLionProjects/mat_vector/Matrix.cpp.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Users/makovey/CLionProjects/mat_vector/Matrix.cpp.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/Users/makovey/CLionProjects/mat_vector/Matrix.cpp.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Users/makovey/CLionProjects/mat_vector/Vector.cpp.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/Users/makovey/CLionProjects/mat_vector/Vector.cpp.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Users/makovey/CLionProjects/mat_vector/Vector.cpp.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/Users/makovey/CLionProjects/mat_vector/Vector.cpp.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Users/makovey/CLionProjects/mat_vector/Vector.cpp.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/Users/makovey/CLionProjects/mat_vector/Vector.cpp.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Users/makovey/CLionProjects/mat_vector/catch.h.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/Users/makovey/CLionProjects/mat_vector/catch.h.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Users/makovey/CLionProjects/mat_vector/catch.h.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/Users/makovey/CLionProjects/mat_vector/catch.h.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Users/makovey/CLionProjects/mat_vector/catch.h.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/Users/makovey/CLionProjects/mat_vector/catch.h.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Users/makovey/CLionProjects/mat_vector/index-sort-f.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/Users/makovey/CLionProjects/mat_vector/index-sort-f.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Users/makovey/CLionProjects/mat_vector/index-sort-l.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/Users/makovey/CLionProjects/mat_vector/index-sort-l.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Users/makovey/CLionProjects/mat_vector/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/Users/makovey/CLionProjects/mat_vector/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Users/makovey/CLionProjects/mat_vector/main.cpp.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/Users/makovey/CLionProjects/mat_vector/main.cpp.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Users/makovey/CLionProjects/mat_vector/main.cpp.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/Users/makovey/CLionProjects/mat_vector/main.cpp.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/Users/makovey/CLionProjects/mat_vector/main.cpp.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/Users/makovey/CLionProjects/mat_vector/main.cpp.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/index-sort-f.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/index-sort-f.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/index-sort-l.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/index-sort-l.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/__functional_base.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/__functional_base.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/__functional_base.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/__functional_base.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/__functional_base.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/__functional_base.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/__locale.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/__locale.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/__locale.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/__locale.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/__locale.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/__locale.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/__split_buffer.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/__split_buffer.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/__split_buffer.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/__split_buffer.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/__split_buffer.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/__split_buffer.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/__string.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/__string.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/__string.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/__string.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/__string.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/__string.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/__tree.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/__tree.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/__tree.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/__tree.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/__tree.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/__tree.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/algorithm.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/algorithm.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/algorithm.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/algorithm.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/algorithm.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/algorithm.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/bit.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/bit.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/bit.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/bit.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/bit.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/bit.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/chrono.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/chrono.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/chrono.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/chrono.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/chrono.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/chrono.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/deque.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/deque.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/deque.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/deque.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/deque.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/deque.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/exception.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/exception.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/exception.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/exception.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/exception.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/exception.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/fstream.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/fstream.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/fstream.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/fstream.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/fstream.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/fstream.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/functional.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/functional.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/functional.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/functional.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/functional.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/functional.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/index-sort-f.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/index-sort-f.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/index-sort-l.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/index-sort-l.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/initializer_list.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/initializer_list.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/initializer_list.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/initializer_list.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/initializer_list.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/initializer_list.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/iomanip.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/iomanip.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/iomanip.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/iomanip.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/iomanip.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/iomanip.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/ios.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/ios.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/ios.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/ios.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/ios.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/ios.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/iosfwd.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/iosfwd.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/iosfwd.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/iosfwd.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/iosfwd.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/iosfwd.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/istream.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/istream.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/istream.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/istream.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/istream.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/istream.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/iterator.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/iterator.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/iterator.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/iterator.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/iterator.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/iterator.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/limits.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/limits.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/limits.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/limits.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/limits.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/limits.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/locale.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/locale.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/locale.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/locale.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/locale.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/locale.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/map.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/map.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/map.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/map.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/map.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/map.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/math.h.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/math.h.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/math.h.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/math.h.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/math.h.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/math.h.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/memory.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/memory.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/memory.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/memory.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/memory.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/memory.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/new.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/new.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/new.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/new.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/new.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/new.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/ostream.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/ostream.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/ostream.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/ostream.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/ostream.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/ostream.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/random.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/random.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/random.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/random.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/random.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/random.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/regex.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/regex.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/regex.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/regex.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/regex.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/regex.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/set.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/set.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/set.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/set.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/set.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/set.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/sstream.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/sstream.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/sstream.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/sstream.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/sstream.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/sstream.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/stack.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/stack.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/stack.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/stack.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/stack.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/stack.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/stdexcept.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/stdexcept.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/stdexcept.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/stdexcept.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/stdexcept.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/stdexcept.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/stdlib.h.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/stdlib.h.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/stdlib.h.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/stdlib.h.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/stdlib.h.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/stdlib.h.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/streambuf.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/streambuf.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/streambuf.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/streambuf.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/streambuf.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/streambuf.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/string.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/string.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/string.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/string.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/string.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/string.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/string_view.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/string_view.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/string_view.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/string_view.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/string_view.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/string_view.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/tuple.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/tuple.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/tuple.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/tuple.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/tuple.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/tuple.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/type_traits.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/type_traits.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/type_traits.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/type_traits.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/type_traits.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/type_traits.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/typeinfo.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/typeinfo.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/typeinfo.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/typeinfo.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/typeinfo.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/typeinfo.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/utility.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/utility.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/utility.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/utility.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/utility.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/utility.gcov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/vector.func-sort-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/vector.func-sort-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/vector.func.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/vector.func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/v1/vector.gcov.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/v1/vector.gcov.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +203,16 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1Ry6PeuAsdnHK8HMDNm0bnahyJS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -72,12 +261,27 @@
       <workItem from="1571220306572" duration="8219000" />
       <workItem from="1571380750067" duration="460000" />
       <workItem from="1571635761105" duration="38795000" />
-      <workItem from="1571753123007" duration="3615000" />
+      <workItem from="1571753123007" duration="4098000" />
+      <workItem from="1571824012616" duration="1938000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

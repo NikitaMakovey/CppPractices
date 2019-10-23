@@ -32,12 +32,12 @@
             <td></td>
             <td class="headerItem">Lines:</td>
             <td class="headerCovTableEntry">77</td>
-            <td class="headerCovTableEntry">302</td>
-            <td class="headerCovTableEntryLo">25.5 %</td>
+            <td class="headerCovTableEntry">306</td>
+            <td class="headerCovTableEntryLo">25.2 %</td>
           </tr>
           <tr>
             <td class="headerItem">Date:</td>
-            <td class="headerValue">2019-10-23 01:03:53</td>
+            <td class="headerValue">2019-10-23 23:27:09</td>
             <td></td>
             <td class="headerItem">Functions:</td>
             <td class="headerCovTableEntry">32</td>
@@ -2110,7 +2110,7 @@
 <a name="2048"><span class="lineNum">    2048 </span><span class="lineNoCov">          0 :     size_type __sz = static_cast&lt;size_type&gt;(_VSTD::distance(__first, __last));</span></a>
 <a name="2049"><span class="lineNum">    2049 </span><span class="lineNoCov">          0 :     if (__sz &gt; max_size())</span></a>
 <a name="2050"><span class="lineNum">    2050 </span><span class="lineNoCov">          0 :         this-&gt;__throw_length_error();</span></a>
-<a name="2051"><span class="lineNum">    2051 </span>            :     pointer __p;</a>
+<a name="2051"><span class="lineNum">    2051 </span><span class="lineNoCov">          0 :     pointer __p;</span></a>
 <a name="2052"><span class="lineNum">    2052 </span><span class="lineNoCov">          0 :     if (__sz &lt; __min_cap)</span></a>
 <a name="2053"><span class="lineNum">    2053 </span>            :     {</a>
 <a name="2054"><span class="lineNum">    2054 </span><span class="lineNoCov">          0 :         __set_short_size(__sz);</span></a>
@@ -2123,7 +2123,7 @@
 <a name="2061"><span class="lineNum">    2061 </span><span class="lineNoCov">          0 :         __set_long_pointer(__p);</span></a>
 <a name="2062"><span class="lineNum">    2062 </span><span class="lineNoCov">          0 :         __set_long_cap(__cap+1);</span></a>
 <a name="2063"><span class="lineNum">    2063 </span><span class="lineNoCov">          0 :         __set_long_size(__sz);</span></a>
-<a name="2064"><span class="lineNum">    2064 </span>            :     }</a>
+<a name="2064"><span class="lineNum">    2064 </span><span class="lineNoCov">          0 :     }</span></a>
 <a name="2065"><span class="lineNum">    2065 </span><span class="lineNoCov">          0 :     for (; __first != __last; ++__first, (void) ++__p)</span></a>
 <a name="2066"><span class="lineNum">    2066 </span><span class="lineNoCov">          0 :         traits_type::assign(*__p, *__first);</span></a>
 <a name="2067"><span class="lineNum">    2067 </span><span class="lineNoCov">          0 :     traits_type::assign(*__p, value_type());</span></a>
@@ -3186,7 +3186,7 @@
 <a name="3124"><span class="lineNum">    3124 </span>            : #else</a>
 <a name="3125"><span class="lineNum">    3125 </span><span class="lineNoCov">          0 :     return __m - __alignment;</span></a>
 <a name="3126"><span class="lineNum">    3126 </span>            : #endif</a>
-<a name="3127"><span class="lineNum">    3127 </span>            : }</a>
+<a name="3127"><span class="lineNum">    3127 </span><span class="lineNoCov">          0 : }</span></a>
 <a name="3128"><span class="lineNum">    3128 </span>            : </a>
 <a name="3129"><span class="lineNum">    3129 </span>            : template &lt;class _CharT, class _Traits, class _Allocator&gt;</a>
 <a name="3130"><span class="lineNum">    3130 </span>            : void</a>
@@ -3759,7 +3759,7 @@
 <a name="3697"><span class="lineNum">    3697 </span><span class="lineCov">        308 : basic_string&lt;_CharT, _Traits, _Allocator&gt;::compare(const basic_string&amp; __str) const _NOEXCEPT</span></a>
 <a name="3698"><span class="lineNum">    3698 </span>            : {</a>
 <a name="3699"><span class="lineNum">    3699 </span><span class="lineCov">        308 :     return compare(__self_view(__str));</span></a>
-<a name="3700"><span class="lineNum">    3700 </span>            : }</a>
+<a name="3700"><span class="lineNum">    3700 </span><span class="lineNoCov">          0 : }</span></a>
 <a name="3701"><span class="lineNum">    3701 </span>            : </a>
 <a name="3702"><span class="lineNum">    3702 </span>            : template &lt;class _CharT, class _Traits, class _Allocator&gt;</a>
 <a name="3703"><span class="lineNum">    3703 </span>            : int</a>
